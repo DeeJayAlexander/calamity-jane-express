@@ -1,0 +1,172 @@
+/*
+ * Calamity Jane Express(R)   webversion 0.1-alpha april 2013 for testing and development only
+ * http://calamityjaneexpress.net/
+ *
+ * Copyright 2013 Dee Jay Alexander
+ * Released under GPL2+ license
+ * http://gnu.org/licenses/gpl.html 
+ *
+ * Date: sun Apr 28 2013 09:00:00 GMT-0400 (Eastern Daylight Time)
+ */ 
+	
+	#container1 #container2  {
+ 	width: 300px;
+  	background-color: #DDD;
+  	border: 2px solid #666;
+  	left: 50%;
+  	margin-left: -150px; 
+	}
+	
+	#sortable1 li, #sortable2 li ,#funccalls1 li {
+	text-overflow: ellipsis;	
+	white-space: nowrap; 
+	overflow:hidden;
+	}
+	
+	#mesBox {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	z-index: 1000;
+	background: #ffc;
+	padding: 5px;
+	border: 2px solid #CCCCCC;
+	text-align: center;
+	font-weight: bold;
+	width: 99%;
+	}
+	
+	#f9a textarea {
+	resize: none;
+	}	
+	
+	#f5, #f6, #f2.show {
+	background: #99FFCC;		
+	}
+	
+	#f2, #f3, #f4, #f16 {
+	background: #FFCCFF;		
+	}
+	
+	#f9, #f10, #f11 {
+	background: #CCFF66;		
+	}
+
+	#f7, #f8 {
+	background: #999966;		
+	}
+
+	#f0, #f00, #f14, #f13, #f18 {
+	background: #99FF66;		
+	}
+
+	#f0a, #f15 {
+	background: #99FF99;		
+	}	
+	
+	#f12, #f1 {
+	background: #FF8080	;		
+	}
+			
+	.sel {
+	background: #FFFFFF;
+	}	
+			
+	.hide
+	{
+	display:none;
+	}
+
+	.touched {
+	background: #00ff00;
+	}
+	
+	#b101a,#b101b,#b101c,#b101d {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+	}
+
+	.b102 {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+	}
+	
+	.b103 {
+  position: absolute;
+  right: 70px;
+  bottom: 5px;
+	}
+	
+	.b104 {
+  position: absolute;
+  right: 155px;
+  bottom: 5px;
+	}
+	  .b105 {
+  position: absolute;
+  right: 210px;
+  bottom: 5px;
+	}
+
+	  .b106 {
+  position: absolute;
+  right: 5px;
+  bottom: 30px;
+	}	
+	
+	  .b107 {
+  position: absolute;
+  right: 70px;
+  bottom: 30px;
+	}
+		
+	  .b108 {
+  position: absolute;
+  right: 140px;
+  bottom: 30px;
+	}
+		
+	  .b109 {
+  position: absolute;
+  right: 210px;
+  bottom: 30px;
+	}
+		
+	  .b110 {
+  position: absolute;
+  right: 280px;
+  bottom: 30px;
+	}
+		
+	  .b111 {
+  position: absolute;
+  right: 5px;
+  bottom: 55px;
+	}
+		
+	  .b112 {
+  position: absolute;
+  right: 70px;
+  bottom: 55px;
+	}	
+		
+	  .b113 {
+  position: absolute;
+  right: 140px;
+  bottom: 55px;
+	}
+		
+	  .b114 {
+  position: absolute;
+  right: 210px;
+  bottom: 55px;
+	}
+		
+	  .b115 {
+  position: absolute;
+  right: 280px;
+  bottom: 55px;
+	}
+	 

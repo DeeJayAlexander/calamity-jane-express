@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"> 
+ <title>Calamity Jane Express (R) webversion 0.1-alpha april 2013</title> 
+ 
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+ <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+ <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.js"></script>
+ 
+ <script src="jquery.ui.touch-punch.js"></script>
+ 
+ <link rel="stylesheet" href="cje.css" />
+ <script src="cje.js"></script>
+ </head>
+ 
+<body style="font-size:62.5%;">
+
+<div data-role="page" id="page1">
+
+	<div data-role="header" data-theme="d" style="background: #FFCCFF">
+	<p><strong>(R) CALAMITY JANE EXPRESS</strong> v0.1-alpha 2013 testversion</p>
+	</div>
+
+	<div data-role="content" id="p1"  style="background: #000000">
+		<ul data-role="listview" data-inset="true" data-theme="d"  id="funccalls1">
+			<li id="f5">SHOW Content Upper Part</li>
+			<li id="f6">SHOW Content Lower Part</li>	
+			<li id="f2" class="show">ENABLE Select</li>
+			<li id="f16">INVERT Selection</li>						
+			<li id="f3">UNSELECT Selection</li>
+			<li id="f4">UNDO "TO BE...(whatever)"</li>
+			<li id="f9">CREATE Clip</li>			
+			<li id="f10">CREATE Bullet</li>
+			<li id="f11">CHANGE Bullet</li>							
+			<li id="f7">DELETE Selection (within Clip)</li>
+			<li id="f8">VANISH Selection (within device)</li>
+			<li id="f17">EMPTY Temporaries-clip</li>			
+			<li id="f14">REFILL Upper Part</li>
+			<li id="f15">SHOW Lower part</li>
+			<li id="f0a">REFILL Lower Part</li>
+			<li id="f12">SAVE Into MEMORY</li>		
+			<li id="f1">SAVE Memory To FILES</li>
+			<li id="f0">_____*  CREDITS 1  *_____</li>
+			<li id="f00">_____*  CREDITS 2 *_____</li>																			
+		</ul>
+	</div>
+	
+	<div data-role="footer" data-theme="d" data-position="fixed" data-tap-toggle="false">
+		<h1> </h1>
+		<input type="button" class="b102" value="ToScreen2" onclick="GoToP2();"></input>
+		<input type="button" id="f100" class="b104" value="SortON" onclick="ToggleSort();"></input>		
+	</div>
+	
+</div>
+
+<div data-role="page" id="page2">
+
+	<div data-role="header" data-theme="d" style="background: #FFCCFF">
+	<p><strong>(R) CALAMITY JANE EXPRESS</strong> v0.1-alpha 2013 testversion</p>
+	</div>
+	
+	<div data-role="content" data-theme="c"  style="background: #000000">
+ 
+		<div class="" id="container1">
+  			<ul data-role="listview" data-inset="true" data-theme="d" id="sortable1" data-filter="true" data-filter-placeholder="place search-text here..." data-mini="true" >	
+				<li data-role="list-divider" class="classname1" id="q1"><strong>Upper:</strong>TOP CLIPS</li>			
+			</ul>
+		</div>
+		<div id="mesBox"></div>	
+		<div class="" id="container2"> 	
+			<ul data-role="listview" data-inset="true" data-theme="d" id="sortable2" data-filter="true" data-filter-placeholder="place search-text here..." data-mini="true" >
+				<li data-role="list-divider" class="classname2" id="q2" data-mini="true"><strong>Lower:</strong>TOP CLIPS</li>
+			</ul>
+		</div>
+ 
+	</div>
+
+	<div data-role="footer" data-theme="d" data-position="fixed" data-tap-toggle="false" style="background: #000000">
+		<h1> </h1>
+		<input type="button" class="b102" value="Forward" onclick="Forward();"></input>
+		<input type="button" class="b103" value="ToScreen1" onclick="GoToP1();"></input>
+		<input type="button" class="b104" value="Back" onclick="Backward();"></input>
+		<input type="button" id="f101" class="b105" value="ToLower" onclick="WalkUpDown();"></input>	
+	</div> 
+
+</div>
+
+<div data-role="page" id="page2a">
+
+	<div data-role="header"  data-theme="d" data-position="fixed" id="aaa" >
+	</div>
+	
+	<div data-role="content" data-theme="c"  style="background: #FFFF00">
+		<p style="font-size: 16px;"id="showcontent"></p>	
+	</div>
+
+	<div data-role="footer" data-theme="d" data-position="fixed" data-tap-toggle="false">
+		<h1> </h1>
+		<input type="button" class="b102" value="ToScreen1" onclick="GoToP1();"></input>
+		<input type="button" class="b103" value="ToScreen2" onclick="GoToP2();"></input>
+	</div> 
+
+</div>
+
+<div  data-role="page" id="page3">
+	
+	<div data-role="header" data-theme="d" style="background: #FFCCFF">
+	<p><strong>(R) CALAMITY JANE EXPRESS</strong> v0.1-alpha 2013</p>
+	</div>
+
+	<div data-role="content" id="p3">
+		<li id="f9a" class="hide"><label style="font-size: 16px; color: green">ClipName:</label><textarea rows="1" name="textarea1" ></textarea><a /></li>
+		<li id="f10a" class="hide"><label style="font-size: 16px">BulletContent:</label><textarea name="textarea" ></textarea><a /></li>
+		<li id="f10aa" class="hide"><label style="font-size: 16px">BulletLink (:anchor):</label><textarea name="textarea" ></textarea><a /></li>
+
+	</div>
+	
+	<div id="dummy">
+	</div>
+	
+	<div data-role="footer" data-theme="d" data-position="fixed" data-tap-toggle="false">
+		<h1> </h1>
+		<a Id="b101a" style="visibility:hidden;" href="#page1" >TP1</a>
+		<a Id="b101b" style="visibility:hidden;" href="#page2" >TP2</a>
+		<a Id="b101ba" style="visibility:hidden;" href="#page2a" >TP2a</a>
+		<a Id="b101c"  style="visibility:hidden;"href="#page3" >TP3</a>
+		<input id="f9b" type="button" class="b102 hide" value="ClipADD" onclick="ClassPrepADD2();"></input>
+		<input id="f10b" type="button" class="b102 hide" value="BulletADD" onclick="ItemPrepADD2();"></input>
+		<input id="f11a" type="button" class="b102 hide" value="BulletCHANGE" onclick="ItemPrepCHANGE2();"></input>
+		<input type="button" class="b104" value="Cancel" onclick="$('#f9a, #f9b, #f10a, #f10aa, #f10b, #f11a').addClass('hide');GoToP1();"></input>
+		
+	</div>
+</div>
+
+</body>
+</html>
