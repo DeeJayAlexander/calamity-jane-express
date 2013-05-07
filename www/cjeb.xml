@@ -37,6 +37,8 @@
 <bu xid="id_11072" cl="clip"/>
 </cl>
 <cl na="_MINE" xid="id_11098" cl="su">
+<bu xid="id_11112" cl="txt"/>
+<bu xid="id_11113" cl="lnk"/>
 </cl>
 <cl na="_tornado" xid="id_11001">
 <bu xid="id_356" cl="txt"/>

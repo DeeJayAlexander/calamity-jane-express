@@ -1,5 +1,5 @@
 <root>
-<cl na="counter" xid="id_0">11111</cl>
+<cl na="counter" xid="id_0">11113</cl>
 <cl na="ARC" xid="id_10000">
 <bu cl="txt" xid="id_1">Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
 <bu cl="txt" xid="id_2">Pick safe places in each room..</bu>
@@ -1386,5 +1386,11 @@
 <bu cl="txt" xid="id_1383">Emergency Supplies for Your Vehicle.</bu>
 </cl>
 <cl na="Mine" xid="id_10002">
+<bu cl="txt" xid="id_11112">Place your own text plus file-links here (file-links optional). This can also be multimedia, but whether it can be shown is dependent of the browser. On a smartphone (tested Samsung GS2) Dolphin 9.4.1 gave the expected results and "behavior". On Android for videos, the default videos-player also gave here the best "behavior".</bu>
+<bu cl="lnk" xid="id_11113">
+<a id="id_11113" rel="external" href="http://www.youtube.com/watch?v=XXPhDUnameA">
+Anoukje
+</a>
+</bu>
 </cl>
 </root>
