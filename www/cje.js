@@ -77,7 +77,7 @@
 		}
 		$('#page2 li').off("click");
 		$('#sortable1 li,#sortable2 li').off("click");
-		Colorize();//4-3
+		Colorize2();//***
 		if(showItem){ShowItem();}else{SelectME();};
 		$('#b101b').click();
 		$('#sortable1, #sortable2').listview('refresh');
@@ -103,7 +103,8 @@
 		}
 		$('#page2 li').off("click");
 		$('#sortable1 li,#sortable2 li').off("click");
-		Colorize();//4-3
+		Colorize();
+      	Colorize2();//***	
 		if(showItem){ShowItem();}else{SelectME();};
 		$('#b101b').click();
 		$('#sortable1, #sortable2').listview('refresh');
@@ -140,11 +141,13 @@
 		$('#'+b).after('<li />');
 		$('#'+b).next().attr('id','id_'+nrx);	
 		$('#id_'+nrx).addClass('NEW').text($('#f10a textarea').textinput().val()).prepend('<strong>TO BE CREATED !!+ </strong>');
-		if ($('#f10aa textarea').textinput().val() != '') {$('#id_'+nrx).addClass('lnk').data('lnk',$('#f10aa textarea').textinput().val())};
+		if ($('#f10aa textarea').textinput().val() != '') {$('#id_'+nrx).addClass('lnk').data('lnk',$('#f10aa textarea').textinput().val())}
+		else {$('#id_'+nrx).addClass('txt')};//added***
 		$('#b101b').click();
 		$('#f10a, #f10aa, #f10b').addClass('hide');
 		if (showItem) {ShowItem()} else {SelectME()};	
-		$('#sortable1, #sortable2').listview('refresh');	
+		$('#sortable1, #sortable2').listview('refresh');
+		Colorize();//***	
 	}
 		
 	function ItemPrepCHANGE1(){
@@ -159,8 +162,9 @@
 			if ($('#'+b).hasClass('DEL')){$('#'+b).removeClass('DEL'); $('#'+b+' strong:only-of-type').remove();};
 			if ($('#'+b).hasClass('VANISH')){$('#'+b).removeClass('VANISH'); $('#'+b+' strong:only-of-type').remove();};
 			$('#f10a textarea').textinput().val($('#'+b).text());
-			if ($('#'+b).hasClass('lnk')) {$('#f10aa textarea').textinput().val($('a[id="'+b+'"]', xmla).attr('href'))}
-			else {$('#f10aa').addClass('hide');};		
+			if ($('#'+b).hasClass('lnk')) {if ($('#'+b).hasClass('NEW')) {} //if NEW just keep original value 
+			else {$('#f10aa textarea').textinput().val($('a[id="'+b+'"]', xmla).attr('href'))}}//is bullet NEW added***
+			else {$('#f10aa').addClass('hide');};	
 			if ($('#'+b).hasClass('NEW')){$('#f10a textarea').textinput().val($('#'+b).text().substr(18));};
 			if ($('#'+b).hasClass('CHANGE')){$('#f10a textarea').textinput().val($('#'+b).text().substr(18));};
 			$('#b101c').click();
@@ -177,10 +181,12 @@
 	//PREPARE BULLETS FOR TEXT-CHANGE (2/2)
 			$('#'+b).text($('#f10a textarea').textinput().val());
 			$('#f10a, #f10aa, #f11a').addClass('hide');
-			$('#b101b').click();	
+			$('#b101b').click(); 	
 			if ($('#'+b).hasClass('NEW')){$('#'+b).prepend('<strong>TO BE CREATED !!+ </strong>');} else {
 			$('#'+b).addClass('CHANGE').prepend('<strong>TO BE CHANGED !!$ </strong>');};
-			if ($('#'+b).hasClass('lnk')) {$('#'+b).data('lnk',$('#f10aa textarea').textinput().val())}; 
+			if ($('#'+b).hasClass('lnk')) {$('#'+b).data('lnk',$('#f10aa textarea').textinput().val())};
+			$('.sel').removeClass('sel');//***
+			Colorize();//***
 	}
 
 	function ClassPrepADD1(){
@@ -194,7 +200,7 @@
 			
 	function ClassPrepADD2(){
 	//PREPARE CLIP CREATION (2/2)
-		var na = $('#f9a textarea').textinput().val(); 
+		var na = $('#f9a textarea').textinput().val();
 		var c = $('[na='+'"_'+na+'"'+']', xmlb).size();
 		if (c==0){}	else {alert('Clipname allready exists, must create UNIQUE name!'); return};				
 		if ($('.classname1').hasClass('NEW')){$('.classname1').text(na).prepend('<strong>TO BE CREATED !!+ </strong>');}
@@ -210,6 +216,8 @@
 		$('#sortable1 li:not(".classname1")').remove();		
 		$('#b101b').click();
 		$('#f9a, #f9b').addClass('hide');
+		$('.sel').removeClass('sel');//***
+		Colorize();//***
 	}	 	
 
 //- - - -
@@ -256,7 +264,8 @@
 		if ($('#'+a).hasClass('lnk')){var al = xmla.createElement('a');
 		$('cl:last bu:last',xmla).attr('cl','lnk').attr('xid',a).prepend($(al));//
 		$('cl:last bu:last a',xmla).attr('id',a).attr('rel','external').attr('href', $('#'+a).data('lnk')).text($('#'+a).text());}// 
-		else{$('cl:last bu:last',xmla).attr('cl','txt').attr('xid',a).text($('#'+a).text())};
+		//else{$('cl:last bu:last',xmla).attr('cl','txt').attr('xid',a).text($('#'+a).text())};//replaced by below***
+		else{$('cl:last bu:last',xmla).attr('xid',a).text($('#'+a).text())};		
 		}
 		$('.NEW').removeClass('NEW');
 		var arrayA = [];
@@ -304,7 +313,7 @@
 		switch(str)
 			{
 			case 'f00':
-			alert('(R) CALAMITY JANE EXPRESS a BrowserMessenger by Dee Jay Alexander at www.calamityjaneexpress.net\n\nCopyright (c) Free Software Foundation, Inc. License GPL2+: GNU GPL version 2 or later <http://gnu.org/licenses/gpl.html>.\n\nThis is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extend permitted by law. Just give the credits to Dee Jay Alexander at www.calamityjaneexpress.net\n\nWebversion 0.1-alfa april 2013 for TESTING purposes ONLY.\n\nCALAMITY JANE EXPRESS(R) is to SHOOT (info)BULLETS to SERVE and SAVE people, pets and properties!');
+			alert('(R) CALAMITY JANE EXPRESS a BrowserMessenger by Dee Jay Alexander at www.calamityjaneexpress.net\n\nCopyright (c) Free Software Foundation, Inc. License GPL2+: GNU GPL version 2 or later <http://gnu.org/licenses/gpl.html>.\n\nThis is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extend permitted by law. Just give the credits to Dee Jay Alexander at www.calamityjaneexpress.net\n\nWebversion 0.2-alfa april 2013 for TESTING purposes ONLY.\n\nCALAMITY JANE EXPRESS(R) is to SHOOT (info)BULLETS to SERVE and SAVE people, pets and properties!');
 			break;
 			case 'f0':
 			alert('Credits to the American Red Cross and its affiliates at www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. .\n\nCredits to the JQUERY Team at www.jquery.org for providing the JQuery framework as open source.\n\nCredits to Dave Furfero at touchpunch.furf.com for providing JQuery UI compatible Touchscreen utils as open source.\n\nThere is NOT ANY affiliation between Calamity Jane Express(R) and the above mentioned entities.'); 
@@ -501,7 +510,7 @@
 			txt = ""; for (var i=1; i<$('#sortable1 li').size()+1; i++){txt= "<div>" + txt + "</div>" + $(' #sortable1 li:eq('+i+')').text();};
 			$('#showcontent').text('');
 			$('#showcontent').append(txt);
-			Colorize2();
+			Colorize3();
 			$('#b101ba').click();			
 	}			
 
@@ -510,7 +519,7 @@
 			txt = ""; for (var i=1; i<$('#sortable2 li').size()+1; i++){txt= "<div>" + txt + "</div>" + $(' #sortable2 li:eq('+i+')').text();};	
 			$('#showcontent').text('');		
 			$('#showcontent').append(txt);
-			Colorize2();
+			Colorize4();
 			$('#b101ba').click();				
 	}
 	
@@ -624,12 +633,29 @@
 		$('#sortable1 li:not(.classname1):odd , #sortable2 li:not(.classname2):odd ').not('.sel').css("background","#FFFF99");
 	}
 
+	function Colorize(){
+	//COLORIZE LIST***
+		$('#sortable1 li:not(.classname1):even').not('.sel').css("background","#99FF66");
+		$('#sortable1 li:not(.classname1):odd').not('.sel').css("background","#FFFF99");
+	}
+	
 	function Colorize2(){
+	//COLORIZE LIST***
+		$('#sortable2 li:not(.classname2):even').not('.sel').css("background","#99FFCC");
+		$('#sortable2 li:not(.classname2):odd').not('.sel').css("background","#FFCCFF");
+	}
+	
+	function Colorize3(){
 	//COLORIZE LIST
 		$('#showcontent div:even').css("background","#FFFF99");
 		$('#showcontent div:odd').css("background","#99FF66");
 	}
-
+	function Colorize4(){
+	//COLORIZE LIST
+		$('#showcontent div:even').css("background","#FFCCFF");
+		$('#showcontent div:odd').css("background","#99FFCC");
+	}
+	
 	function Backward(){
 	//MOVE BACK 1 CLIP
 		if (WalkThrough == '#sortable1')
@@ -739,7 +765,8 @@
     	$( "#sortable1, #sortable2").disableSelection();
     	<!-- Refresh list to the end of sort to have a correct display -->
     	$("#sortable1, #sortable2").bind( "sortstop", function(event, ui) {
-      	Colorize();		
+      	Colorize();	
+      	Colorize2();		
       	$('#sortable1, #sortable2').listview('refresh');
     	});
 		$("#funccalls1").click(function(event){DoFunc(event)});
