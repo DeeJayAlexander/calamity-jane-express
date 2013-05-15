@@ -1,8 +1,7 @@
 <root>
 <cl na="_TEMPORARIES" cl="su" xid="TEMP">
-<bu xid="id_11122" cl="lnk"/>
 </cl>
-<cl na="_AMERICAN_RED_CROSS" xid="id_11095" cl="su">
+<cl na="_ARC" xid="id_11095" cl="su">
 <bu xid="id_1" cl="txt"/>
 <bu xid="id_11003" cl="clip"/>
 <bu xid="id_11007" cl="clip"/>
@@ -38,8 +37,10 @@
 <bu xid="id_11072" cl="clip"/>
 </cl>
 <cl na="_MINE" xid="id_11098" cl="su">
+<bu xid="id_11112" cl="txt"/>
+<bu xid="id_11113" cl="lnk"/>
 </cl>
-<cl na="_TORNADO" xid="id_11001">
+<cl na="_tornado" xid="id_11001">
 <bu xid="id_356" cl="txt"/>
 <bu xid="id_357" cl="txt"/>
 <bu xid="id_361" cl="txt"/>
@@ -69,7 +70,7 @@
 <bu xid="id_397" cl="txt"/>
 <bu xid="id_374" cl="txt"/>
 </cl>
-<cl na="_THUNDERSTORM" xid="id_11004">
+<cl na="_Thunderstorm" xid="id_11004">
 <bu xid="id_119" cl="txt"/>
 <bu xid="id_104" cl="txt"/>
 <bu xid="id_123" cl="txt"/>
@@ -89,7 +90,7 @@
 <bu xid="id_96" cl="txt"/>
 <bu xid="id_88" cl="txt"/>
 </cl>
-<cl na="_HURRICANES" xid="id_11006">
+<cl na="_hurricanes" xid="id_11006">
 <bu xid="id_212" cl="txt"/>
 <bu xid="id_213" cl="txt"/>
 <bu xid="id_214" cl="txt"/>
@@ -120,7 +121,7 @@
 <bu xid="id_340" cl="txt"/>
 <bu xid="id_341" cl="txt"/>
 </cl>
-<cl na="_WIND" xid="id_11003">
+<cl na="_winds" xid="id_11003">
 <bu xid="id_380" cl="txt"/>
 <bu xid="id_422" cl="txt"/>
 <bu xid="id_105" cl="txt"/>
@@ -139,7 +140,7 @@
 <bu xid="id_305" cl="txt"/>
 <bu xid="id_259" cl="txt"/>
 </cl>
-<cl na="_EARTQUAKES" xid="id_11012">
+<cl na="_earthquaks" xid="id_11012">
 <bu xid="id_11" cl="txt"/>
 <bu xid="id_13" cl="txt"/>
 <bu xid="id_17" cl="txt"/>
@@ -165,7 +166,7 @@
 <bu xid="id_8" cl="txt"/>
 <bu xid="id_53" cl="txt"/>
 </cl>
-<cl na="_FLOOD" xid="id_11007">
+<cl na="_flood" xid="id_11007">
 <bu xid="id_676" cl="txt"/>
 <bu xid="id_677" cl="txt"/>
 <bu xid="id_678" cl="txt"/>
@@ -223,7 +224,7 @@
 <bu xid="id_809" cl="txt"/>
 <bu xid="id_811" cl="txt"/>
 </cl>
-<cl na="_FIRE" xid="id_11008">
+<cl na="_fire" xid="id_11008">
 <bu xid="id_736" cl="txt"/>
 <bu xid="id_783" cl="txt"/>
 <bu xid="id_789" cl="txt"/>
@@ -282,7 +283,7 @@
 <bu xid="id_921" cl="txt"/>
 <bu xid="id_922" cl="txt"/>
 </cl>
-<cl na="_WILDFIRE" xid="id_11010">
+<cl na="_wildfire" xid="id_11010">
 <bu xid="id_1007" cl="txt"/>
 <bu xid="id_1009" cl="txt"/>
 <bu xid="id_1013" cl="txt"/>
@@ -338,14 +339,14 @@
 <bu xid="id_996" cl="txt"/>
 <bu xid="id_997" cl="txt"/>
 </cl>
-<cl na="_DOCUMENTS" xid="id_11013">
+<cl na="_documents" xid="id_11013">
 <bu xid="id_1008" cl="txt"/>
 <bu xid="id_102" cl="txt"/>
 <bu xid="id_268" cl="txt"/>
 <bu xid="id_686" cl="txt"/>
 <bu xid="id_688" cl="txt"/>
 </cl>
-<cl na="_TRANSPORT" xid="id_11016">
+<cl na="_transport" xid="id_11016">
 <bu xid="id_263" cl="txt"/>
 <bu xid="id_277" cl="txt"/>
 <bu xid="id_358" cl="txt"/>
@@ -357,13 +358,13 @@
 <bu xid="id_918" cl="txt"/>
 <bu xid="id_980" cl="txt"/>
 </cl>
-<cl na="_LIVESTOCK" xid="id_11017">
+<cl na="_livestock" xid="id_11017">
 <bu xid="id_138" cl="txt"/>
 <bu xid="id_741" cl="txt"/>
 <bu xid="id_742" cl="txt"/>
 <bu xid="id_954" cl="txt"/>
 </cl>
-<cl na="_MEDICAL" xid="id_11018">
+<cl na="_medical" xid="id_11018">
 <bu xid="id_205" cl="txt"/>
 <bu xid="id_206" cl="txt"/>
 <bu xid="id_207" cl="txt"/>
@@ -376,14 +377,14 @@
 <bu xid="id_919" cl="txt"/>
 <bu xid="id_922" cl="txt"/>
 </cl>
-<cl na="_SICK_AND_WOUNDED" xid="id_11019">
+<cl na="_sick_and_wounded" xid="id_11019">
 <bu xid="id_194" cl="txt"/>
 <bu xid="id_325" cl="txt"/>
 <bu xid="id_32" cl="txt"/>
 <bu xid="id_67" cl="txt"/>
 <bu xid="id_776" cl="txt"/>
 </cl>
-<cl na="_BUILDINGS" xid="id_11020">
+<cl na="_buildings" xid="id_11020">
 <bu xid="id_106" cl="txt"/>
 <bu xid="id_107" cl="txt"/>
 <bu xid="id_161" cl="txt"/>
@@ -400,7 +401,7 @@
 <bu xid="id_789" cl="txt"/>
 <bu xid="id_84" cl="txt"/>
 </cl>
-<cl na="_INSURANCE" xid="id_11024">
+<cl na="_insurance" xid="id_11024">
 <bu xid="id_1008" cl="txt"/>
 <bu xid="id_102" cl="txt"/>
 <bu xid="id_446" cl="txt"/>
@@ -408,7 +409,7 @@
 <bu xid="id_688" cl="txt"/>
 <bu xid="id_799" cl="txt"/>
 </cl>
-<cl na="_FAMILY" xid="id_11025">
+<cl na="_family" xid="id_11025">
 <bu xid="id_13" cl="txt"/>
 <bu xid="id_360" cl="txt"/>
 <bu xid="id_374" cl="txt"/>
@@ -424,7 +425,7 @@
 <bu xid="id_94" cl="txt"/>
 <bu xid="id_95" cl="txt"/>
 </cl>
-<cl na="_HOME_UTILITIES" xid="id_11030">
+<cl na="_home_utilities" xid="id_11030">
 <bu xid="id_17" cl="txt"/>
 <bu xid="id_269" cl="txt"/>
 <bu xid="id_270" cl="txt"/>
@@ -441,7 +442,7 @@
 <bu xid="id_82" cl="txt"/>
 <bu xid="id_83" cl="txt"/>
 </cl>
-<cl na="_ALERTSCODES" xid="id_11039">
+<cl na="_Alertscodes" xid="id_11039">
 <bu xid="id_480" cl="txt"/>
 <bu xid="id_481" cl="txt"/>
 <bu xid="id_482" cl="txt"/>
@@ -450,7 +451,7 @@
 <bu xid="id_485" cl="txt"/>
 <bu xid="id_486" cl="txt"/>
 </cl>
-<cl na="_GENERAL_PREPAREDNESS" xid="id_11041">
+<cl na="_General_preparedness" xid="id_11041">
 <bu xid="id_494" cl="txt"/>
 <bu xid="id_495" cl="txt"/>
 <bu xid="id_496" cl="txt"/>
@@ -465,7 +466,7 @@
 <bu xid="id_505" cl="txt"/>
 <bu xid="id_506" cl="txt"/>
 </cl>
-<cl na="_LIVING_IN_HAZARDEOUS_AREAS" xid="id_11043">
+<cl na="_Living_in_hazardeous areas" xid="id_11043">
 <bu xid="id_510" cl="txt"/>
 <bu xid="id_511" cl="txt"/>
 <bu xid="id_512" cl="txt"/>
@@ -473,7 +474,7 @@
 <bu xid="id_514" cl="txt"/>
 <bu xid="id_515" cl="txt"/>
 </cl>
-<cl na="_KNOW_HOW_TO_SHUTT_OFF" xid="id_11044">
+<cl na="_Know_how_to_shut_off" xid="id_11044">
 <bu xid="id_516" cl="txt"/>
 <bu xid="id_517" cl="txt"/>
 <bu xid="id_518" cl="txt"/>
@@ -487,7 +488,7 @@
 <bu xid="id_526" cl="txt"/>
 <bu xid="id_527" cl="txt"/>
 </cl>
-<cl na="_DO_DURING_WINTERSTORM" xid="id_11045">
+<cl na="_Do_during_winterstorm" xid="id_11045">
 <bu xid="id_539" cl="txt"/>
 <bu xid="id_540" cl="txt"/>
 <bu xid="id_541" cl="txt"/>
@@ -506,39 +507,39 @@
 <bu xid="id_554" cl="txt"/>
 <bu xid="id_555" cl="txt"/>
 </cl>
-<cl na="_AVOID_SWEATING" xid="id_11046">
+<cl na="_Avoid_sweating" xid="id_11046">
 <bu xid="id_556" cl="txt"/>
 <bu xid="id_557" cl="txt"/>
 <bu xid="id_558" cl="txt"/>
 <bu xid="id_559" cl="txt"/>
 </cl>
-<cl na="_PUBLIC_SERVICES" xid="id_11049">
+<cl na="_Public_services" xid="id_11049">
 <bu xid="id_616" cl="txt"/>
 <bu xid="id_617" cl="txt"/>
 <bu xid="id_618" cl="txt"/>
 <bu xid="id_619" cl="txt"/>
 <bu xid="id_620" cl="txt"/>
 </cl>
-<cl na="_FACTS_AND_FICTIONS" xid="id_11050">
+<cl na="_facts_and_fictions" xid="id_11050">
 <bu xid="id_621" cl="txt"/>
 <bu xid="id_622" cl="txt"/>
 <bu xid="id_623" cl="txt"/>
 <bu xid="id_624" cl="txt"/>
 <bu xid="id_625" cl="txt"/>
 </cl>
-<cl na="_CARBONMONOXIDE" xid="id_11052">
+<cl na="_CarbonMonoxide" xid="id_11052">
 <bu xid="id_1071" cl="txt"/>
 <bu xid="id_1072" cl="txt"/>
 <bu xid="id_1073" cl="txt"/>
 <bu xid="id_1074" cl="txt"/>
 <bu xid="id_1075" cl="txt"/>
 </cl>
-<cl na="_HOME_FIRESPRINKLERS" xid="id_11055">
+<cl na="_Home_FireSprinklers" xid="id_11055">
 <bu xid="id_1094" cl="txt"/>
 <bu xid="id_1095" cl="txt"/>
 <bu xid="id_1096" cl="txt"/>
 </cl>
-<cl na="_ELECTRICAL_HAZARDS" xid="id_11058">
+<cl na="_Electrical_Hazards" xid="id_11058">
 <bu xid="id_1106" cl="txt"/>
 <bu xid="id_1107" cl="txt"/>
 <bu xid="id_1108" cl="txt"/>
@@ -547,7 +548,7 @@
 <bu xid="id_1111" cl="txt"/>
 <bu xid="id_1112" cl="txt"/>
 </cl>
-<cl na="_TIPS_PREPARING_SUPPLY_KITS" xid="id_11060">
+<cl na="_Tips_Preparing_Supply_Kits" xid="id_11060">
 <bu xid="id_1117" cl="txt"/>
 <bu xid="id_1118" cl="txt"/>
 <bu xid="id_1119" cl="txt"/>
@@ -556,7 +557,7 @@
 <bu xid="id_1122" cl="txt"/>
 <bu xid="id_1123" cl="txt"/>
 </cl>
-<cl na="_KEEPING_REFRIGERATED_FOOD" xid="id_11066">
+<cl na="_Keeping_Refrigerated_Food" xid="id_11066">
 <bu xid="id_1230" cl="txt"/>
 <bu xid="id_1231" cl="txt"/>
 <bu xid="id_1232" cl="txt"/>
@@ -581,7 +582,7 @@
 <bu xid="id_1251" cl="txt"/>
 <bu xid="id_1252" cl="txt"/>
 </cl>
-<cl na="_SMOKE_ALARMS" xid="id_11051">
+<cl na="_Smoke_Alarms" xid="id_11051">
 <bu xid="id_1063" cl="txt"/>
 <bu xid="id_1064" cl="txt"/>
 <bu xid="id_1065" cl="txt"/>
@@ -591,7 +592,7 @@
 <bu xid="id_1069" cl="txt"/>
 <bu xid="id_1070" cl="txt"/>
 </cl>
-<cl na="_FIRE_EXTINGUISHERS" xid="id_11053">
+<cl na="_FireExtinguishers" xid="id_11053">
 <bu xid="id_1079" cl="txt"/>
 <bu xid="id_1080" cl="txt"/>
 <bu xid="id_1081" cl="txt"/>
@@ -600,12 +601,12 @@
 <bu xid="id_1084" cl="txt"/>
 <bu xid="id_1085" cl="txt"/>
 </cl>
-<cl na="_ARC_FAULTCIRCUIT_INTERRUPTERS_(AVCI's)" xid="id_11054">
+<cl na="_Arc-FaultCircuitInterrupters_(AFCIs)" xid="id_11054">
 <bu xid="id_1091" cl="txt"/>
 <bu xid="id_1092" cl="txt"/>
 <bu xid="id_1093" cl="txt"/>
 </cl>
-<cl na="_CARBONMONOXIDE_2" xid="id_11057">
+<cl na="_CarbonMonoxide_2" xid="id_11057">
 <bu xid="id_1099" cl="txt"/>
 <bu xid="id_1100" cl="txt"/>
 <bu xid="id_1101" cl="txt"/>
@@ -614,13 +615,13 @@
 <bu xid="id_1104" cl="txt"/>
 <bu xid="id_1105" cl="txt"/>
 </cl>
-<cl na="_FIRE_HAZARDS" xid="id_11059">
+<cl na="_Fire_Hazards" xid="id_11059">
 <bu xid="id_1113" cl="txt"/>
 <bu xid="id_1114" cl="txt"/>
 <bu xid="id_1115" cl="txt"/>
 <bu xid="id_1116" cl="txt"/>
 </cl>
-<cl na="_FIRSTAIDKIT_CONTENTS" xid="id_11063">
+<cl na="_FirstAidKit_Contents" xid="id_11063">
 <bu xid="id_1134" cl="txt"/>
 <bu xid="id_1135" cl="txt"/>
 <bu xid="id_1136" cl="txt"/>
@@ -650,7 +651,7 @@
 <bu xid="id_1160" cl="txt"/>
 <bu xid="id_1161" cl="txt"/>
 </cl>
-<cl na="_FOODS_TO_STOCK" xid="id_11064">
+<cl na="_Foods_to_Stock" xid="id_11064">
 <bu xid="id_1162" cl="txt"/>
 <bu xid="id_1163" cl="txt"/>
 <bu xid="id_1164" cl="txt"/>
@@ -685,7 +686,7 @@
 <bu xid="id_1193" cl="txt"/>
 <bu xid="id_1194" cl="txt"/>
 </cl>
-<cl na="_STORING_WATER" xid="id_11065">
+<cl na="_Storing_Water" xid="id_11065">
 <bu xid="id_1195" cl="txt"/>
 <bu xid="id_1196" cl="txt"/>
 <bu xid="id_1197" cl="txt"/>
@@ -722,7 +723,7 @@
 <bu xid="id_1228" cl="txt"/>
 <bu xid="id_1229" cl="txt"/>
 </cl>
-<cl na="_FIRST_AID_KIT_FOR_ANIMALS" xid="id_11073">
+<cl na="_First_Aid_Kit_for_Animals" xid="id_11073">
 <bu xid="id_1320" cl="txt"/>
 <bu xid="id_1321" cl="txt"/>
 <bu xid="id_1322" cl="txt"/>
@@ -765,7 +766,7 @@
 <bu xid="id_1359" cl="txt"/>
 <bu xid="id_1360" cl="txt"/>
 </cl>
-<cl na="_FOOD_AND_WATER_EXPOSURE" xid="id_11067">
+<cl na="_Food_and_Water_Exposure" xid="id_11067">
 <bu xid="id_1253" cl="txt"/>
 <bu xid="id_1254" cl="txt"/>
 <bu xid="id_1255" cl="txt"/>
@@ -782,7 +783,7 @@
 <bu xid="id_1266" cl="txt"/>
 <bu xid="id_1267" cl="txt"/>
 </cl>
-<cl na="_EVACUATION" xid="id_11068">
+<cl na="_Evacuation" xid="id_11068">
 <bu xid="id_1268" cl="txt"/>
 <bu xid="id_1269" cl="txt"/>
 <bu xid="id_1270" cl="txt"/>
@@ -792,7 +793,7 @@
 <bu xid="id_1274" cl="txt"/>
 <bu xid="id_1275" cl="txt"/>
 </cl>
-<cl na="_WINDSAFE_PLACES" xid="id_11071">
+<cl na="_WindSafe_places" xid="id_11071">
 <bu xid="id_1285" cl="txt"/>
 <bu xid="id_1286" cl="txt"/>
 <bu xid="id_1287" cl="txt"/>
@@ -807,7 +808,7 @@
 <bu xid="id_1296" cl="txt"/>
 <bu xid="id_1297" cl="txt"/>
 </cl>
-<cl na="_FROSTBITE_AND_HYPOTHERMIA" xid="id_11072">
+<cl na="_Frostbite_and_Hypothermia" xid="id_11072">
 <bu xid="id_1298" cl="txt"/>
 <bu xid="id_1299" cl="txt"/>
 <bu xid="id_1300" cl="txt"/>
@@ -830,14 +831,5 @@
 <bu xid="id_1317" cl="txt"/>
 <bu xid="id_1318" cl="txt"/>
 <bu xid="id_1319" cl="txt"/>
-</cl>
-<cl na="_NEW_CLIP" xid="id_11119">
-<bu xid="id_380" cl="txt"/>
-<bu xid="id_422" cl="txt"/>
-<bu xid="id_105" cl="txt"/>
-<bu xid="id_106" cl="txt"/>
-<bu xid="id_11003" cl="clip"/>
-<bu xid="id_366" cl="txt"/>
-<bu xid="id_124" cl="txt"/>
 </cl>
 </root>
