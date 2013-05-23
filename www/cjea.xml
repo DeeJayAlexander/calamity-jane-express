@@ -1,7 +1,8 @@
 <root>
-<cl na="counter" xid="id_0">11113</cl>
+<cl na="counter" xid="id_0">11248</cl>
 <cl na="ARC" xid="id_10000">
-<bu cl="txt" xid="id_1">Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
+<bu cl="txt" xid="id_1">README 1st: Here are all the sub-clips (sub-clips always start with a "_"). Tap on it to see the bullets each sub-clip contains. Once in a sub-clip, tap on a bullet to view it's content. 
+Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
 <bu cl="txt" xid="id_2">Pick safe places in each room..</bu>
 <bu cl="txt" xid="id_3">Practice drop, cover, and hold on..</bu>
 <bu cl="txt" xid="id_4">If you are at risk from earthquakes, you should:.</bu>
@@ -1386,11 +1387,267 @@
 <bu cl="txt" xid="id_1383">Emergency Supplies for Your Vehicle.</bu>
 </cl>
 <cl na="Mine" xid="id_10002">
-<bu cl="txt" xid="id_11112">Place your own text plus file-links here (file-links optional). This can also be multimedia, but whether it can be shown is dependent of the browser. On a smartphone (tested Samsung GS2) Dolphin 9.4.1 gave the expected results and "behavior". On Android for videos, the default videos-player also gave here the best "behavior".</bu>
-<bu cl="lnk" xid="id_11113">
-<a id="id_11113" rel="external" href="http://www.youtube.com/watch?v=XXPhDUnameA">
-Anoukje
+<bu cl="txt" xid="id_11112">Create and/or drag/drop your own bullets here,e.g. drag bullets from the LowerTopClip to the UpperTopClip (in this case you must first "unhide"  (i.e. "show") the LowerTopClip, in Screen 1).</bu>
+<bu cl="lnk" xid="id_11122">
+<a id="id_11122" rel="external" href="01s_sprain.mp4">*Sprains and strains (British Red Cross mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11123">
+<a id="id_11123" rel="external" href="02s_choking.mp4">*Chocking (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11124">
+<a id="id_11124" rel="external" href="04s_adult_cpr.mp4">*Adult CPR (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11125">
+<a id="id_11125" rel="external" href="05s_child_cpr.mp4">*Child CPR (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11126">
+<a id="id_11126" rel="external" href="06s_baby_cpr.mp4">*Baby CPR (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11127">
+<a id="id_11127" rel="external" href="07s_bleeding_hand.mp4">*Bleeding hand (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11128">
+<a id="id_11128" rel="external" href="09s_burns.mp4">*Burns and scalds (British Red Cross, mp4)</a>
+</bu>
+<bu cl="lnk" xid="id_11130">
+<a id="id_11130" rel="external" href="ALS-DisasterPreparedness-020712.mp3">*ALS Disaster Preparedness 02-07-2012 (archive.org, mp3)</a>
+</bu>
+<bu cl="lnk" xid="id_11131">
+<a id="id_11131" rel="external" href="City-to-cityRespondingAndPartneringInDisaster.mp3">*City-to-city Responding And Partnering In Disaster (archive.org, mp3)</a>
+</bu>
+<bu cl="lnk" xid="id_11133">
+<a id="id_11133" rel="external" href="Diagram_of_the_human_heart.png">Diagram of the human heart (wikipedia.org, png)</a>
+</bu>
+<bu cl="lnk" xid="id_11134">
+<a id="id_11134" rel="external" href="Direct-pressure-and-elevation.jpg">Direct pressure and elevation (wikipedia.org, jpg)</a>
+</bu>
+<bu cl="lnk" xid="id_11135">
+<a id="id_11135" rel="external" href="Forearm_splint.jpg">Forearm splint (wikipedia.org, jpg)</a>
+</bu>
+<bu cl="lnk" xid="id_11136">
+<a id="id_11136" rel="external" href="Gray507.png">Head blood vessels-[Gray507] (wikipedia.org, png)</a>
+</bu>
+<bu cl="lnk" xid="id_11137">
+<a id="id_11137" rel="external" href="Tongue-blocking-airways.png">Tongue blocking airways (wikipedia.org, png)</a>
+</bu>
+<bu cl="lnk" xid="id_11154">
+<a id="id_11154" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?City=New+Orleans&amp;_id=Tj_1Ypox3RGtgHFNYEsBXw&amp;_render=json&amp;radius=67 National Hurricane Center Advisories: http://pipes.yahoo.com/pipes/pipe.run?_id=7PptTnpE3RGSPAlJJhOy0Q&amp;_render=json">Hurricane (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11155">
+<a id="id_11155" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?City=New+Orleans&amp;_id=Tj_1Ypox3RGtgHFNYEsBXw&amp;_render=json&amp;radius=67 National Hurricane Center Advisories: http://pipes.yahoo.com/pipes/pipe.run?_id=7PptTnpE3RGSPAlJJhOy0Q&amp;_render=json">Sea State Watcher(!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11156">
+<a id="id_11156" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=6632151702a89b12a40f71ce24005553&amp;_render=json">Hurricane Tracker(!Yahoo Pipes, json) </a>
+</bu>
+<bu cl="lnk" xid="id_11157">
+<a id="id_11157" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=7PptTnpE3RGSPAlJJhOy0Q&amp;_render=json">National Hurricane Center Advisories (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11158">
+<a id="id_11158" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=eA87isVd3hGw_Zx_U5Wufg&amp;_render=json">SPC Storm Reports (Yesterday) (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11159">
+<a id="id_11159" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=6632151702a89b12a40f71ce24005553&amp;_render=json">Current Tropical Storms (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11160">
+<a id="id_11160" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=TJ_Ru7zH3RG0l1qx_w6H4A&amp;_render=json">Today's Storm Reports (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11161">
+<a id="id_11161" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?State=WI&amp;_id=Sk81h4cH3RGl44WkJZhxuA&amp;_render=json">National Severe Thunderstorm Warnings (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11162">
+<a id="id_11122" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=xL2ZsmPI2xGZEhiNkAtvUw&amp;_render=json">Wildfire News (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11163">
+<a id="id_11163" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=Tm1_uDyI3BGAPm8b2h2EvQ&amp;_render=json">Earthquakes in Northern California (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11164">
+<a id="id_11164" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=7250d674dbac23b66f3f25a2c55d9ea7&amp;_render=json">National Weather Service Observed River Conditions and River Condition Alerts - Red River of the North Main Stem (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11165">
+<a id="id_11165" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=BjgSJBEP3RG0ghcAOTY80A&amp;_render=json">North Dakota Water, Weather, and Natural Resource News (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11166">
+<a id="id_11166" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=aEuinrS03BGmjFiQEpPZnA&amp;_render=json&amp;magnitudeThreshold=1 ">Quakescope (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11167">
+<a id="id_11167" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=5f54b30d36a9eacff1a88669ca03aaa8&amp;_render=json">world earthquake map (past 7 days) (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11168">
+<a id="id_11168" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=VEm5_4253BGSBceQJphxuA&amp;_render=json&amp;filterCriteria1=flood&amp;zoneCode=TXZ16">Weather alert (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11169">
+<a id="id_11169" rel="external" href="http://pipes.yahoo.com/pipes/pipe.run?_id=vkbigS9w3BGFQgxmLe2fWQ&amp;_render=json">FEMA Regional News (!Yahoo Pipes, json)</a>
+</bu>
+<bu cl="lnk" xid="id_11172">
+<a id="id_11172" rel="external" href="Anchor_Fuel_Tanks_2-[how2005].epub">**Anchor Fuel Tanks 2-[how2005] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11173">
+<a id="id_11173" rel="external" href="Add_Waterproof_Veneer_to_Exterior_Walls_2-[how2003].epub">**Add Waterproof Veneer to Exterior Walls 2-[how2003](Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11174">
+<a id="id_11174" rel="external" href="Raise_Electrical_System_Components_2-[how2004].epub">**Raise Electrical System Components 2-[how2004] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11175">
+<a id="id_11175" rel="external" href="Raise_or_Floodproof_HVAC _quipment_2-[how2006].epub">**Raise or Floodproof HVAC  equipment 2-[how2006] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11176">
+<a id="id_11176" rel="external" href="Install_Sewer_Backflow_Valves_2-[how2007].epub">**Install Sewer Backflow Valves 2-[how2007] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11177">
+<a id="id_11177" rel="external" href="Reinforce_or_Replace_Garage_Doors_2-[how2016].epub">**Reinforce or Replace Garage Doors 2-[how2016] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11178">
+<a id="id_11178" rel="external" href="Protecting_Your_Property_From_Wind_2-[how2017].epub">**Protecting Your Property From Wind 2-[how2017] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11179">
+<a id="id_11179" rel="external" href="Remove_Trees_and_Potential_Windborne_Missiles_2-[how2020].epub">**Remove Trees and Potential Windborne Missiles 2-[how2020] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11180">
+<a id="id_11180" rel="external" href="Protecting_Your_Business_From_Disaster_2-[how2021].epub">**Protecting Your Business From Disaster 2-[how2021] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11181">
+<a id="id_11181" rel="external" href="Protecting_Your_Business_From_Earthquakes-[how2023].epub">**Protecting Your Business From Earthquakes-[how2023] (Fema, epub)</a>
+</bu>
+<bu cl="lnk" xid="id_11182">
+<a id="id_11182" rel="external" href="01s_sprain.ogv">*Sprains and strains (British Red Cross ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11183">
+<a id="id_11183" rel="external" href="02s_choking.ogv">*Chocking (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11184">
+<a id="id_11184" rel="external" href="04s_adult_cpr.ogv">*Adult CPR (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11185">
+<a id="id_11185" rel="external" href="05s_child_cpr.ogv">*Child CPR (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11186">
+<a id="id_11186" rel="external" href="06s_baby_cpr.ogv">*Baby CPR (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11187">
+<a id="id_11187" rel="external" href="07s_bleeding_hand.ogv">*Bleeding hand (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11188">
+<a id="id_11188" rel="external" href="07s_bleeding_hand.ogv">*Bleeding hand (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11189">
+<a id="id_11189" rel="external" href="09s_burns.ogv">*Burns and scalds (British Red Cross, ogv)</a>
+</bu>
+<bu cl="lnk" xid="id_11190">
+<a id="id_11190" rel="external" href="ALS-DisasterPreparedness-020712.ogg">*ALS Disaster Preparedness 02-07-2012 (archive.org, ogg)</a>
+</bu>
+<bu cl="lnk" xid="id_11191">
+<a id="id_11191" rel="external" href="City-to-cityRespondingAndPartneringInDisaster.ogg">*City-to-city Responding And Partnering In Disaster (archive.org, ogg)</a>
+</bu>
+<bu xid="id_11193">In this clip are the CJE docs. It is now all in one file, but it will be split out in multiple files or (better) "accordionized", be made more comprehensible for the novice and generally improved.</bu>
+<bu xid="id_11194">README 1st: The first bullet (actually a sub-clip)  contains streaming video from Youtube. 
+On Android the native Android Video- player gave best result. Others might show erratic behavior. You might try out which video-player gives decent results. 
+The video's in the last 2 Clip-bullets can only be viewed when you have an on-board server The video must first be downloaded from Dropbox at http://db.tt/edEJFi4y and must be dropped in the web-document-root (: the same place where all the cje-files reside).
+These video's were found somewhere in the past and I  couldn't found them anymore so I placed them for download here at Dropbox, but all credits go to the British Red Cross at www.redcross.org.uk. There is NOT ANY affiliation between Calamity Jane Express ® and the British Red Cross.</bu>
+<bu xid="id_11195">README 1st: Here are some examples of podcast-streams found on archive.org.
+Bullets with a *-mark can only be played when you have the developers version and a local on-board server. The video's can then be downloaded from archive.com with the same titles as given in the bullet-name or one can do a search on "disaster".
+situation were the only way to return is the browsers Back-button, after you listened to the podcast. </bu>
+<bu xid="id_11196">README 1st: Here are some pics from wikipedia.org that must be download from Dropbox at http://db.tt/CcYFzgDe, so that it can be viewed(in png and jpg format).</bu>
+<bu xid="id_11198">README 1st: These are so-calledYahoo Pipes in which data that might come from different sites canbe filtered, added, grouped, sorted etc before they are output in some format and, if needed, further processed by the user. Here the output is in json format for further processing. If you want to do it yourself, please see bullet "Learn more about Yahoo Pipes and rss".
+Actually it's a way of providing external/remote functionality: if you don't have the functionality on-board, than it can be "outsourced" to an external source and you get only the result back to you.</bu>
+<bu cl="lnk" xid="id_11199">
+<a id="id_11199" rel="external" href="http://fastwonderblog.com/yahoo-pipes-and-rss-hacks/">
+Learn more about Yahoo Pipes and RSS (fastwonderblog.com)
 </a>
 </bu>
+<bu xid="id_11200">README 1st: These are files from FEMA in epub format so that you can read it with special e-reader software. The **-marks mean that of this moment it can only be viewed if you simulate this whole web-app on a desktop/laptop. On a smartphone/tablet it will show you garbled data because the epub format will not automatically fire up an e-reader app. In future versions it should also be possible to start ANY native app and/or open ANY filetype from this "bui" (:bulleted-user-interface), so that EVERYTHING can be opened/started from here.
+The files are from Fema and are only converted here, at my site into epub-format, to make it readable with an e-reader hardware/software.
+Credits go to Fema at www.fema.gov. There is NOT ANY affiliation between Calamity Jane Express ® and Fema.</bu>
+<bu cl="lnk" xid="id_11201">
+<a id="id_11201" rel="external" href="index2.html">
+CJE technical documentation in 1 file. Once the file is loaded, tap on a subject to see its content (subjects are  grouped "accordionized"). Tap Back-button of browser to return.
+</a>
+</bu>
+<bu cl="lnk" xid="id_11202">
+<a id="id_11202" rel="external" href="cjeman.html">CJE Manual (to be improved for the novice).</a>
+</bu>
+<bu cl="lnk" xid="id_11203">
+<a id="id_11203" rel="external" href="http://www.youtube.com/watch?v=1qje-XlNowI">Heart attack  (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11204">
+<a id="id_11204" rel="external" href="http://www.youtube.com/watch?v=BQ_62avLPv0">Unconscious and not breathing (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11205">
+<a id="id_11205" rel="external" href="http://www.youtube.com/watch?v=HzFD6dcNvH8">Unconscious and breathing (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11206">
+<a id="id_11206" rel="external" href="http://www.youtube.com/watch?v=PCNTMIcOMpE">Stroke (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11207">
+<a id="id_11207" rel="external" href="http://www.youtube.com/watch?v=7MPJauo4DdY">Seizure (epilepsy) (British Red cross, steraming)</a>
+</bu>
+<bu cl="lnk" xid="id_11208">
+<a id="id_11208" rel="external" href="http://www.youtube.com/watch?v=OqDdLUi7kkA">Head injury  (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11209">
+<a id="id_11209" rel="external" href="http://www.youtube.com/watch?v=1Ceh9CWHS7k">Asthma (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11210">
+<a id="id_11210" rel="external" href="http://www.youtube.com/watch?v=L4o6D10AkMg">Poison and harmful substances (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11211">
+<a id="id_11211" rel="external" href="http://www.youtube.com/watch?v=fuHg7cx-r3g">Distress (British Red Cross, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11215">
+<a id="id_11215" rel="external" href="http://archive.org/download/DisasterPreparedness/ALS-DisasterPreparedness-020712.mp3">ALS-DisasterPreparedness-020712 (archive.org, streaming/mp3)</a>
+</bu>
+<bu cl="lnk" xid="id_11216">
+<a id="id_11216" rel="external" href="http://archive.org/download/DisasterPreparedness/ALS-DisasterPreparedness-020712.ogg">ALS-DisasterPreparedness-020712 (archive.org, streaming/ogg)</a>
+</bu>
+<bu cl="lnk" xid="id_11217">
+<a id="id_11217" rel="external" href="http://archive.org/download/City-to-cityRespondingAndPartneringInDisaster/City-to-cityRespondingAndPartneringInDisaster.mp3">City-to-City Responding and Partnering in Disaster (archive.org, streaming/mp3)</a>
+</bu>
+<bu cl="lnk" xid="id_11218">
+<a id="id_11218" rel="external" href="http://archive.org/download/City-to-cityRespondingAndPartneringInDisaster/City-to-cityRespondingAndPartneringInDisaster.ogg">City-to-City Responding and Partnering in Disaster (archive.org, streaming/ogg)</a>
+</bu>
+<bu cl="lnk" xid="id_11233">
+<a id="id_11233" rel="external" href="http://www.youtube.com/watch?v=eJnUzsTz3OA&amp;fmt=18">Sort functions (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11234">
+<a id="id_11234" rel="external" href="http://www.youtube.com/watch?v=7-OKTWrVh6I&amp;fmt=18">Scroll and tap to view content (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11235">
+<a id="id_11235" rel="external" href="http://www.youtube.com/watch?v=k-XNIUsaw0g&amp;fmt=18">Search by traversal/enumeration (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11236">
+<a id="id_11236" rel="external" href="http://www.youtube.com/watch?v=0YRs9Nra3FU&amp;fmt=18">Delete via Temporaries (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11237">
+<a id="id_11237" rel="external" href="http://www.youtube.com/watch?v=8V5wdtOeXx8&amp;fmt=18">Scroll and tap to view content (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11238">
+<a id="id_11238" rel="external" href="http://www.youtube.com/watch?v=VPqpqbISFWs&amp;fmt=18">Hide UpperTopClip/Search through LowerTopClip(Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11239">
+<a id="id_11239" rel="external" href="http://i2.ytimg.com/vi/E6-6A830sk4/mqdefault.jpg&amp;fmt=18">Enable various selctions (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11240">
+<a id="id_11240" rel="external" href="http://www.youtube.com/watch?v=YSd7-wsjfDE&amp;fmt=18">Drag from LowerTopClip to UpperTopClip (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11241">
+<a id="id_11241" rel="external" href="http://www.youtube.com/watch?v=XEHwLTPx_Wg&amp;fmt=18">Drag/drop within Temporaries (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11242">
+<a id="id_11242" rel="external" href="http://www.youtube.com/watch?v=OxzAoJPn_Yk&amp;fmt=18">Delete (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11243">
+<a id="id_11243" rel="external" href="http://www.youtube.com/watch?v=Cf9xCJ-CD6A|fmt=18">Createclip and traverse (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11244">
+<a id="id_11244" rel="external" href="http://www.youtube.com/watch?v=JzNR0SX4-5A&amp;fmt=18">Create bullet + hyperlink (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11245">
+<a id="id_11245" rel="external" href="http://www.youtube.com/watch?v=w3NdI5aCsiM&amp;fmt=18">Create/change bullet + hyperlink (CJE: Youtube, streaming)</a>
+</bu>
+<bu cl="lnk" xid="id_11246">
+<a id="id_11246" rel="external" href="http://www.youtube.com/watch?v=afSWkQuNbLY&amp;fmt=18">Add video (CJE: Youtube, streaming)</a>
+</bu>
+<bu xid="id_11248">Here you read the latest news or "must read" tips before you start (e.g. for the first time), to get the best experience.
+For example that the best and smooth behavior (on my mobile Samsung GS2 plus Android 2.3.6) came surprisingly from a mobile-browser outsider: Dolphin (dolphin.com). Other mobile browsers gave (unfortunately and unexpected actually) erratic behavior especially during drag/drop (Firefox Mobile) in combination with scrolling (Opera Mobile), but hopefully that will be solved in future versions. Other well known mobile browsers couldn't be tested because they couldn't be installed on my mobile Samsung GS2, like Chrome, Safari Mobile and Windows Mobile. But might  you have other experiences, then the please let me know.
+You must also use CJE's own "back" button as much as possible, because the historical track of CJE and that of your browser are different. The only combinations that did things smooth and right all the time were, like said, Dolphin Mobile browser in combination with Androids native Videos-player (if watching videos), at least on my Samsung GS2 with Android 2.3.6. But expect things to improve in future versions... (?)</bu>
 </cl>
 </root>

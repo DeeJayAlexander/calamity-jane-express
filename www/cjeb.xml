@@ -1,7 +1,20 @@
 <root>
 <cl na="_TEMPORARIES" cl="su" xid="TEMP">
+<bu xid="id_11195" cl="txt"/>
 </cl>
-<cl na="_ARC" xid="id_11095" cl="su">
+<cl na="_README_Latest_News" xid="id_11247" cl="su">
+<bu xid="id_11248" cl="txt"/>
+</cl>
+<cl na="_CJE_Documentation" xid="id_11192" cl="su">
+<bu xid="id_11193" cl="txt"/>
+<bu xid="id_11219" cl="clip"/>
+<bu xid="id_11201" cl="lnk"/>
+<bu xid="id_11202" cl="lnk"/>
+</cl>
+<cl na="_MY_PERSONAL_CLIP" xid="id_11098" cl="su">
+<bu xid="id_11112" cl="txt"/>
+</cl>
+<cl na="_American_Red_Cross_text" xid="id_11095" cl="su">
 <bu xid="id_1" cl="txt"/>
 <bu xid="id_11003" cl="clip"/>
 <bu xid="id_11007" cl="clip"/>
@@ -35,10 +48,6 @@
 <bu xid="id_11068" cl="clip"/>
 <bu xid="id_11071" cl="clip"/>
 <bu xid="id_11072" cl="clip"/>
-</cl>
-<cl na="_MINE" xid="id_11098" cl="su">
-<bu xid="id_11112" cl="txt"/>
-<bu xid="id_11113" cl="lnk"/>
 </cl>
 <cl na="_tornado" xid="id_11001">
 <bu xid="id_356" cl="txt"/>
@@ -831,5 +840,109 @@
 <bu xid="id_1317" cl="txt"/>
 <bu xid="id_1318" cl="txt"/>
 <bu xid="id_1319" cl="txt"/>
+</cl>
+<cl na="_British_Red_Cross_videos" xid="id_11114" cl="su">
+<bu xid="id_11194" cl="txt"/>
+<bu xid="id_11214" cl="clip"/>
+<bu xid="id_11212" cl="clip"/>
+<bu xid="id_11213" cl="clip"/>
+</cl>
+<cl na="_Disaster_ArchiveDotOrg_audio" xid="id_11129" cl="su">
+<bu xid="id_11195" cl="txt"/>
+<bu xid="id_11215" cl="lnk"/>
+<bu xid="id_11217" cl="lnk"/>
+<bu xid="id_11216" cl="lnk"/>
+<bu xid="id_11218" cl="lnk"/>
+<bu xid="id_11130" cl="lnk"/>
+<bu xid="id_11131" cl="lnk"/>
+<bu xid="id_11190" cl="lnk"/>
+<bu xid="id_11191" cl="lnk"/>
+</cl>
+<cl na="_Disaster_WikipediaDotOrg_pics" xid="id_11132" cl="su">
+<bu xid="id_11196" cl="txt"/>
+<bu xid="id_11136" cl="lnk"/>
+<bu xid="id_11133" cl="lnk"/>
+<bu xid="id_11134" cl="lnk"/>
+<bu xid="id_11135" cl="lnk"/>
+<bu xid="id_11137" cl="lnk"/>
+</cl>
+<cl na="_Yahoo_Pipes_json" xid="id_11150" cl="su">
+<bu xid="id_11198" cl="txt"/>
+<bu xid="id_11199" cl="lnk"/>
+<bu xid="id_11154" cl="lnk"/>
+<bu xid="id_11155" cl="lnk"/>
+<bu xid="id_11156" cl="lnk"/>
+<bu xid="id_11157" cl="lnk"/>
+<bu xid="id_11158" cl="lnk"/>
+<bu xid="id_11159" cl="lnk"/>
+<bu xid="id_11160" cl="lnk"/>
+<bu xid="id_11161" cl="lnk"/>
+<bu xid="id_11162" cl="lnk"/>
+<bu xid="id_11163" cl="lnk"/>
+<bu xid="id_11164" cl="lnk"/>
+<bu xid="id_11165" cl="lnk"/>
+<bu xid="id_11166" cl="lnk"/>
+<bu xid="id_11167" cl="lnk"/>
+<bu xid="id_11168" cl="lnk"/>
+<bu xid="id_11169" cl="lnk"/>
+</cl>
+<cl na="_Fema_epub_desktop_only" xid="id_11171" cl="su">
+<bu xid="id_11200" cl="txt"/>
+<bu xid="id_11172" cl="lnk"/>
+<bu xid="id_11173" cl="lnk"/>
+<bu xid="id_11174" cl="lnk"/>
+<bu xid="id_11175" cl="lnk"/>
+<bu xid="id_11176" cl="lnk"/>
+<bu xid="id_11177" cl="lnk"/>
+<bu xid="id_11178" cl="lnk"/>
+<bu xid="id_11179" cl="lnk"/>
+<bu xid="id_11180" cl="lnk"/>
+<bu xid="id_11181" cl="lnk"/>
+</cl>
+<cl na="_British_Red_Cross_download_mp4" xid="id_11212">
+<bu xid="id_11123" cl="lnk"/>
+<bu xid="id_11122" cl="lnk"/>
+<bu xid="id_11124" cl="lnk"/>
+<bu xid="id_11125" cl="lnk"/>
+<bu xid="id_11126" cl="lnk"/>
+<bu xid="id_11127" cl="lnk"/>
+<bu xid="id_11128" cl="lnk"/>
+</cl>
+<cl na="_British_Red_Cross_download_ogv" xid="id_11213">
+<bu xid="id_11182" cl="lnk"/>
+<bu xid="id_11183" cl="lnk"/>
+<bu xid="id_11184" cl="lnk"/>
+<bu xid="id_11185" cl="lnk"/>
+<bu xid="id_11186" cl="lnk"/>
+<bu xid="id_11187" cl="lnk"/>
+<bu xid="id_11188" cl="lnk"/>
+<bu xid="id_11189" cl="lnk"/>
+</cl>
+<cl na="_British_Red_Cross_Youtube_streaming" xid="id_11214">
+<bu xid="id_11203" cl="lnk"/>
+<bu xid="id_11204" cl="lnk"/>
+<bu xid="id_11205" cl="lnk"/>
+<bu xid="id_11206" cl="lnk"/>
+<bu xid="id_11207" cl="lnk"/>
+<bu xid="id_11208" cl="lnk"/>
+<bu xid="id_11209" cl="lnk"/>
+<bu xid="id_11210" cl="lnk"/>
+<bu xid="id_11211" cl="lnk"/>
+</cl>
+<cl na="_CJE_Instruction_Youtube_streaming" xid="id_11219">
+<bu xid="id_11233" cl="lnk"/>
+<bu xid="id_11234" cl="lnk"/>
+<bu xid="id_11235" cl="lnk"/>
+<bu xid="id_11236" cl="lnk"/>
+<bu xid="id_11237" cl="lnk"/>
+<bu xid="id_11238" cl="lnk"/>
+<bu xid="id_11239" cl="lnk"/>
+<bu xid="id_11240" cl="lnk"/>
+<bu xid="id_11241" cl="lnk"/>
+<bu xid="id_11242" cl="lnk"/>
+<bu xid="id_11243" cl="lnk"/>
+<bu xid="id_11244" cl="lnk"/>
+<bu xid="id_11245" cl="lnk"/>
+<bu xid="id_11246" cl="lnk"/>
 </cl>
 </root>
