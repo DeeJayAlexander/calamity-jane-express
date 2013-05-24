@@ -4,12 +4,15 @@
 </cl>
 <cl na="_README_Latest_News" xid="id_11247" cl="su">
 <bu xid="id_11248" cl="txt"/>
+<bu xid="id_11253" cl="txt"/>
+<bu xid="id_11254" cl="txt"/>
 </cl>
 <cl na="_CJE_Documentation" xid="id_11192" cl="su">
 <bu xid="id_11193" cl="txt"/>
 <bu xid="id_11219" cl="clip"/>
-<bu xid="id_11201" cl="lnk"/>
 <bu xid="id_11202" cl="lnk"/>
+<bu xid="id_11255" cl="clip"/>
+<bu xid="id_11201" cl="lnk"/>
 </cl>
 <cl na="_MY_PERSONAL_CLIP" xid="id_11098" cl="su">
 <bu xid="id_11112" cl="txt"/>
@@ -900,6 +903,7 @@
 <bu xid="id_11181" cl="lnk"/>
 </cl>
 <cl na="_British_Red_Cross_download_mp4" xid="id_11212">
+<bu xid="id_11249" cl="txt"/>
 <bu xid="id_11123" cl="lnk"/>
 <bu xid="id_11122" cl="lnk"/>
 <bu xid="id_11124" cl="lnk"/>
@@ -909,6 +913,7 @@
 <bu xid="id_11128" cl="lnk"/>
 </cl>
 <cl na="_British_Red_Cross_download_ogv" xid="id_11213">
+<bu xid="id_11250" cl="txt"/>
 <bu xid="id_11182" cl="lnk"/>
 <bu xid="id_11183" cl="lnk"/>
 <bu xid="id_11184" cl="lnk"/>
@@ -919,6 +924,7 @@
 <bu xid="id_11189" cl="lnk"/>
 </cl>
 <cl na="_British_Red_Cross_Youtube_streaming" xid="id_11214">
+<bu xid="id_11252" cl="txt"/>
 <bu xid="id_11203" cl="lnk"/>
 <bu xid="id_11204" cl="lnk"/>
 <bu xid="id_11205" cl="lnk"/>
@@ -930,6 +936,7 @@
 <bu xid="id_11211" cl="lnk"/>
 </cl>
 <cl na="_CJE_Instruction_Youtube_streaming" xid="id_11219">
+<bu xid="id_11251" cl="txt"/>
 <bu xid="id_11233" cl="lnk"/>
 <bu xid="id_11234" cl="lnk"/>
 <bu xid="id_11235" cl="lnk"/>
@@ -944,5 +951,16 @@
 <bu xid="id_11244" cl="lnk"/>
 <bu xid="id_11245" cl="lnk"/>
 <bu xid="id_11246" cl="lnk"/>
+</cl>
+<cl na="_The_Manifest_images" xid="id_11255">
+<bu xid="id_11264" cl="txt"/>
+<bu xid="id_11256" cl="lnk"/>
+<bu xid="id_11257" cl="lnk"/>
+<bu xid="id_11258" cl="lnk"/>
+<bu xid="id_11259" cl="lnk"/>
+<bu xid="id_11260" cl="lnk"/>
+<bu xid="id_11261" cl="lnk"/>
+<bu xid="id_11262" cl="lnk"/>
+<bu xid="id_11263" cl="lnk"/>
 </cl>
 </root>

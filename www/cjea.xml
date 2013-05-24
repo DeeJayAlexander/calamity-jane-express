@@ -1,5 +1,5 @@
 <root>
-<cl na="counter" xid="id_0">11248</cl>
+<cl na="counter" xid="id_0">11264</cl>
 <cl na="ARC" xid="id_10000">
 <bu cl="txt" xid="id_1">README 1st: Here are all the sub-clips (sub-clips always start with a "_"). Tap on it to see the bullets each sub-clip contains. Once in a sub-clip, tap on a bullet to view it's content. 
 Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
@@ -1387,7 +1387,7 @@ Credits go to the American Red Cross and its affiliates at http://www.redcross.o
 <bu cl="txt" xid="id_1383">Emergency Supplies for Your Vehicle.</bu>
 </cl>
 <cl na="Mine" xid="id_10002">
-<bu cl="txt" xid="id_11112">Create and/or drag/drop your own bullets here,e.g. drag bullets from the LowerTopClip to the UpperTopClip (in this case you must first "unhide"  (i.e. "show") the LowerTopClip, in Screen 1).</bu>
+<bu cl="txt" xid="id_11112">Create and/or drag/drop your own bullets here,e.g. drag bullets from the LowerTopClip to the UpperTopClip (in this case you must first "unhide"  (i.e. "show") the LowerTopClip, in Screen 1 via  function "Show Lower part" in Screen 2).</bu>
 <bu cl="lnk" xid="id_11122">
 <a id="id_11122" rel="external" href="01s_sprain.mp4">*Sprains and strains (British Red Cross mp4)</a>
 </bu>
@@ -1541,14 +1541,16 @@ Credits go to the American Red Cross and its affiliates at http://www.redcross.o
 <bu xid="id_11193">In this clip are the CJE docs. It is now all in one file, but it will be split out in multiple files or (better) "accordionized", be made more comprehensible for the novice and generally improved.</bu>
 <bu xid="id_11194">README 1st: The first bullet (actually a sub-clip)  contains streaming video from Youtube. 
 On Android the native Android Video- player gave best result. Others might show erratic behavior. You might try out which video-player gives decent results. 
-The video's in the last 2 Clip-bullets can only be viewed when you have an on-board server The video must first be downloaded from Dropbox at http://db.tt/edEJFi4y and must be dropped in the web-document-root (: the same place where all the cje-files reside).
+The *-mark with video's in the last 2 Clip-bullets mean, that they can only be viewed when you have an on-board server. The video must first be downloaded from Dropbox at http://db.tt/edEJFi4y and must be dropped in the web-document-root (: the same place where all the cje-files reside).
+In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the video. 
 These video's were found somewhere in the past and I  couldn't found them anymore so I placed them for download here at Dropbox, but all credits go to the British Red Cross at www.redcross.org.uk. There is NOT ANY affiliation between Calamity Jane Express ® and the British Red Cross.</bu>
-<bu xid="id_11195">README 1st: Here are some examples of podcast-streams found on archive.org.
+<bu xid="id_11195">README 1st: Here are some examples of podcast-streams found on archive.org. The mp3 podcasts are directly being played. The ogg podcasts must be downloaded first (at least on Dolphin Mobile).
 Bullets with a *-mark can only be played when you have the developers version and a local on-board server. The video's can then be downloaded from archive.com with the same titles as given in the bullet-name or one can do a search on "disaster".
-situation were the only way to return is the browsers Back-button, after you listened to the podcast. </bu>
+In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you listened to the podcast. </bu>
 <bu xid="id_11196">README 1st: Here are some pics from wikipedia.org that must be download from Dropbox at http://db.tt/CcYFzgDe, so that it can be viewed(in png and jpg format).</bu>
-<bu xid="id_11198">README 1st: These are so-calledYahoo Pipes in which data that might come from different sites canbe filtered, added, grouped, sorted etc before they are output in some format and, if needed, further processed by the user. Here the output is in json format for further processing. If you want to do it yourself, please see bullet "Learn more about Yahoo Pipes and rss".
-Actually it's a way of providing external/remote functionality: if you don't have the functionality on-board, than it can be "outsourced" to an external source and you get only the result back to you.</bu>
+<bu xid="id_11198">README 1st: These are so-calledYahoo Pipes in which data that might come from different sites can be filtered, added, grouped, sorted etc before they are output in some format and, if needed, further processed by the user. Here the output is in json format for further processing. If you want to do it yourself, please see bullet "Learn more about Yahoo Pipes and rss".
+Actually it's a way of providing external/remote functionality: if you don't have the functionality on-board, than it can be "outsourced" to an external source in a simple way (by providing you a bullet) and you get the result back to you. IMHO, an undervalued subject and I think a cornerstone in web-enabled processing and logistics.
+In the future, it should also be possible to create local pipes on board and then mix them with external pipes.</bu>
 <bu cl="lnk" xid="id_11199">
 <a id="id_11199" rel="external" href="http://fastwonderblog.com/yahoo-pipes-and-rss-hacks/">
 Learn more about Yahoo Pipes and RSS (fastwonderblog.com)
@@ -1623,7 +1625,9 @@ CJE technical documentation in 1 file. Once the file is loaded, tap on a subject
 <a id="id_11238" rel="external" href="http://www.youtube.com/watch?v=VPqpqbISFWs&amp;fmt=18">Hide UpperTopClip/Search through LowerTopClip(Youtube, streaming)</a>
 </bu>
 <bu cl="lnk" xid="id_11239">
-<a id="id_11239" rel="external" href="http://i2.ytimg.com/vi/E6-6A830sk4/mqdefault.jpg&amp;fmt=18">Enable various selctions (CJE: Youtube, streaming)</a>
+<a id="id_11239" rel="external" href="http://www.youtube.com/watch?v=E6-6A830sk4">
+Enable various selections (CJE: Youtube, streaming)
+</a>
 </bu>
 <bu cl="lnk" xid="id_11240">
 <a id="id_11240" rel="external" href="http://www.youtube.com/watch?v=YSd7-wsjfDE&amp;fmt=18">Drag from LowerTopClip to UpperTopClip (CJE: Youtube, streaming)</a>
@@ -1647,7 +1651,45 @@ CJE technical documentation in 1 file. Once the file is loaded, tap on a subject
 <a id="id_11246" rel="external" href="http://www.youtube.com/watch?v=afSWkQuNbLY&amp;fmt=18">Add video (CJE: Youtube, streaming)</a>
 </bu>
 <bu xid="id_11248">Here you read the latest news or "must read" tips before you start (e.g. for the first time), to get the best experience.
-For example that the best and smooth behavior (on my mobile Samsung GS2 plus Android 2.3.6) came surprisingly from a mobile-browser outsider: Dolphin (dolphin.com). Other mobile browsers gave (unfortunately and unexpected actually) erratic behavior especially during drag/drop (Firefox Mobile) in combination with scrolling (Opera Mobile), but hopefully that will be solved in future versions. Other well known mobile browsers couldn't be tested because they couldn't be installed on my mobile Samsung GS2, like Chrome, Safari Mobile and Windows Mobile. But might  you have other experiences, then the please let me know.
+For example that the best and most smooth behavior (on a mobile Samsung GS2 plus Android 2.3.6) came surprisingly from a mobile-browser outsider: Dolphin (dolphin.com). Other mobile browsers gave (unfortunately and unexpected actually) erratic behavior especially during drag/drop (Firefox Mobile) in combination with scrolling (Opera Mobile), but hopefully that will be solved in future versions. Other well known mobile browsers couldn't be tested because they couldn't be installed on my mobile Samsung GS2, like Chrome, Safari Mobile and Windows Mobile. But might  you have other experiences, then the please let me know.
 You must also use CJE's own "back" button as much as possible, because the historical track of CJE and that of your browser are different. The only combinations that did things smooth and right all the time were, like said, Dolphin Mobile browser in combination with Androids native Videos-player (if watching videos), at least on my Samsung GS2 with Android 2.3.6. But expect things to improve in future versions... (?)</bu>
+<bu xid="id_11249">README 1st; The *-mark means that these bullets can only be used with the developers version, since an on-board server is needed. The mp4-video must first be downloaded from Dropbox athttp://db.tt/edEJFi4y and must be dropped in the web-document-root.</bu>
+<bu xid="id_11250">README 1st; The *-mark means that these bullets can only be used with the developers version, since an on-board server is needed. The ogv-video must first be downloaded from Dropbox athttp://db.tt/edEJFi4y and must be dropped in the web-document-root.</bu>
+<bu xid="id_11251">README 1st; If you tap on the bullet than you are directly connected with the right video. Like said only Dolphin Mobile acted as expected, but you might have different experiences. Sometimes it might give errors in the beginning, but after some more efforts it should work fine.
+In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the video. </bu>
+<bu xid="id_11252">README 1st; If you tap on a bullet you will be directly connected to a Youtube movie.In the beginning you might get some error messages, buit after some efforts, things should work fine.
+In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the video. </bu>
+<bu xid="id_11253">- Clips (aka pseudo-bullets) always begin with a "_" and can harbor bullets and sub-clips (aka pseudo-bullets) of its own.
+During the creation of a clip only alphanumerical characters and underscores are allowed, or things will behave erratic.
+- A key function in CJE is the relocation (:drag/drop) of bullets within and between clips and that they may appear in multiple clips. See movie-bullet "Drag from LowerTopClip to UpperTopClip" in "_CJE_Instruction_Youtube..."-clip which can be found in "_CJE_Documentation"-topclip. One might see an analogous with semantic "classes" and "individuals", where "individuals" can reside in multiple "classes". This paves the way for semantic relationships between clips/bullets and reasoning, for which this CJE-bui(1) version with its clips/bullets-concept should actually be regarded as a prelude. 
+(1)CJE: Calamity Jane Express; bui: bulleted-user-interface.</bu>
+<bu xid="id_11254">-A future functionality is the simple addition, change and remove of ... functionality! As of this moment at Screen 1, where you can find most of the web-app's functionality, only resorting of the functions is possible. In screen 2 you can do all kinds of bullet manipulation and processing, but as of yet there is no direct connection between Screen 1 and 2. In the future it will be possible to manipulate the composition of the available functions in Screen 1 via Screen 2. It will then be possible to go to a site where e.g. relocatable function-bullets lay lined up and ready to be dragged and dropped to your device via this CJEbui(1) in an easy way. Under the hood is taken care of that the appropriate scripts are also copied to the right place (if it must be executed on your device, in other conditions only a reference/link is adopted, like examples with Yahoo Pipes). Of course you must have the right framework (e.g. JSP,PHP, ASP, Python, Ruby etc) in place to have the scripts work (if executed local) for you or it must be (semi/auto)installed afterwards. No longer rigid hard-coded functions like in an legacy app, that you never use or that are lacked. Functionality-on-the-fly!
+(1)CJE: Calamity Jane Express; bui: bulleted-user-interface</bu>
+<bu cl="lnk" xid="id_11256">
+<a id="id_11256" rel="external" href="cje.png">Manifest 1</a>
+</bu>
+<bu cl="lnk" xid="id_11257">
+<a id="id_11257" rel="external" href="cje2.png">Manifest 2</a>
+</bu>
+<bu cl="lnk" xid="id_11258">
+<a id="id_11258" rel="external" href="cje3.png">Manifest 3</a>
+</bu>
+<bu cl="lnk" xid="id_11259">
+<a id="id_11259" rel="external" href="cje4.png">Manifest 4</a>
+</bu>
+<bu cl="lnk" xid="id_11260">
+<a id="id_11260" rel="external" href="cje5.png">Manifest 5</a>
+</bu>
+<bu cl="lnk" xid="id_11261">
+<a id="id_11261" rel="external" href="cje6.png">Manifest 6</a>
+</bu>
+<bu cl="lnk" xid="id_11262">
+<a id="id_11262" rel="external" href="cje7.png">Manifest 7</a>
+</bu>
+<bu cl="lnk" xid="id_11263">
+<a id="id_11263" rel="external" href="cje8.png">Manifest 8</a>
+</bu>
+<bu xid="id_11264">README 1st; Tapping on these bullets show the manifests in images.
+In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the image. </bu>
 </cl>
 </root>
