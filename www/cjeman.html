@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Calamity Jane Express (R) Userguide</title>
-<link rel="stylesheet" href="jquery-ui-1.9.2.custom.min.css" />
-<script src="jquery-1.9.1.min.js"></script>
-<script src="jquery-ui-1.9.2.custom.min.js"></script>
+ <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
 
   <script>
   $(function() {
@@ -163,7 +163,7 @@ Android version: 2.3.6 Gingerbread, rooted (must be done by yourself).</p>
 <h3>Step 2: Used JS- and CSS-scripts.</h3>
 <div>
 <p>JQuery utils from jquery.com/jquerymobile.com: jquery.mobile-1.1.1.CSS, jquery.mobile-1.1.1.js, jquery-ui-1.8.24.custom.js, jquery-1.8.2.js and Dave Furfero's jquery.ui.touch-punch.js at touchpunch.furf.com.<br />
-If you already have a server with CGI on Android than, you don't have to install an extra Linux server and you can skip the instructions below. Just place the right script plus files in the CGI-bin map, with the rightread/write/execution rights and and all the other files in your web-servers documentroot like /var/www. Done.</p>
+If you already have a server with CGI on Android than, you don't have to install an extra Linux server and you can skip the instructions below. Just place the right script plus files in the CGI-bin map, with the right read/write/execution rights and and all the other files in your web-servers documentroot like /var/www. Done.</p>
 </div>
 
 <h3>Step 3: The installation software.</h3>
@@ -191,7 +191,7 @@ Added some AddType directives in /etc/apache2/hhtpd.conf (is also included in CJ
 <p>Tested with (an outsider!) Dolphin Browser mobile version 9.3.2 for best results. Firefox and Opera Mobile sometimes showed some minor issues, and mp3/mp4 were not recognized (they default on ogg). Future releases, definitely will work seamlessly, we can trust on that.<br />
 Tested with an apk called Videos version 1.0, that was installed by default on Android version 2.3.6 and showed good "behavior". Other video-players showed some erratic behavior or just get stuck.<br />
 Cje.HTML, CJE1.XML, CJE2.XML, mp4 video and JQuery (et al) files are placed in /var/www. Script files like save.sh and accompanying files are placed in /var/www/CGI-bin. <br />
-Ofcourse one can choose for any other configuration. Once you are familiar with it's layout, you can replace the XML-files content with any CJE-compliant XML-data.<br />
+Of course one can choose for any other configuration. Once you are familiar with it's layout, you can replace the XML-files content with any CJE-compliant XML-data.<br />
 Thanks to the fact that the /mnt/sd-card/external_sd is automatically mounted (this must be expressively set!) when the linux.img starts up, you can easily copy/move files between one's external sd-card and the active linux.img. You should be able to read/write from/to external sd-card on a rooted device, but android won't execute scripts/executables from there.</p>
 </div>
 
