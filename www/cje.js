@@ -1,12 +1,12 @@
 /*
- * Calamity Jane Express(R)   webversion 0.1-alpha april 2013 for testing and development only
+ * Calamity Jane Express(R) webversion 0.2-alpha april 2013 for testing and development only
  * http://calamityjaneexpress.net/
  *
  * Copyright 2013 Dee Jay Alexander
- * Released under GPL2+ license
- * http://gnu.org/licenses/gpl.html 
+ * Released under MIT license
+ * at http://en.wikipedia.org/wiki/MIT_License 
  *
- * Date: sun Apr 28 2013 09:00:00 GMT-0400 (Eastern Daylight Time)
+ * Date: sat may 25 2013
  */ 
  
 	function LoadXML(){

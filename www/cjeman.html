@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Calamity Jane Express (R) Userguide</title>
- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="jquery-ui-1.9.2.custom.min.css" />
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery-ui-1.9.2.custom.min.js"></script>
 
   <script>
   $(function() {
@@ -24,7 +24,7 @@
 (a registered trademark in the U.S. and other countries)<br />
 <div id="accordion1">
 USERGUIDE.
-<h3>Basic UI (User Interface) actions:</h3>
+<h3>Basic UI (User Interface) actions.</h3>
 <div>
 <p>TAP: Activate a function on the Function bullets on Screen 1, or on the appropriate screen Footers, or show the content of a real bullet (containing data) or pseudo bullet (:clip containing other (pseudo)bullets).<br />
 DRAG/SORT: Just hold an bullet and drag it around where you want to place it; ONLY Upper Screen Clip-bullets can be saved, Lower Screen Clip-bullets (if made visible) are NOT saved.<br />
@@ -32,47 +32,47 @@ SEARCH; Both Upper Screen Clip/Part and Lower Screen Clip have a search input wh
 </p>
 </div>
 
-<h3>Start CJE:</h3>
+<h3>Start CJE.</h3>
 <div>
 <p>Activate the CJE-software by reading the CJE.HTML file into the browser. Here one can already see three so-called "Top-Clips", i.e. clips that are supposed to be highest in the hierarchy. The user can define any Top-Clip here. An empty clip called "Mine" is already defined as such. In this first alpha-version the bullets only contain or refer to (passive) data. In next versions it will also be possible to create/change/delete/relocate function-bullets here. This way you can change/extend your function-bullets on Screen 1.</p>
 </div>
 
-<h3>Show content of a clip:</h3>
+<h3>Show content of a clip.</h3>
 <div>
 <p>Tap Top-Clip ARC (:pseudo-bullets are preceded with "_"), wait some seconds, and see how it's content shows up with sub-clips (:pseudo-bullets with "_"). In the blue colored part of the screen, the clip-name containing all the (pseudo)bullets below, become visible. Tap some pseudo-bullet (:clip) again and see how other bullets show up. These are the real bullets, because if you tap again, then it's content, text in this case, will "explode" in a dialog-screen. Tap OK to close the dialog-screen. You can mix a clip with real (:data) and pseudo (:clip) bullets. The blue colored bullet on top holds the name of the clip, that all the (pseudo)bullets below it are a part of. Like said before, real and pseudo bullets can occur in multiple clips.</p>
 </div>
 
-<h3>Drag a freely relocatable bullet within a clip:</h3>
+<h3>Drag a freely relocatable bullet within a clip.</h3>
 <div>
 <p>Gently tap a clip, hold it for a second, then move it around (:drag) on the screen. If the bullet reaches the upper- or lower-edge of the screen, the clip will automatically scroll. It can now be dropped anywhere within the clip.</p>
 </div>
 
-<h3>Scroll through the clip:</h3>
+<h3>Scroll through the clip.</h3>
 <div>
 <p>One can scroll through a clip by gently tapping and holding the side part of a clip and then moving it up and/or down.</p>
 </div>
 
-<h3>Search by enumeration:</h3>
+<h3>Search by enumeration.</h3>
 <div>
 <p>Type some text in the upper white input-bullet and notice that some bullets are disappearing. Now the system only shows, i.e. "enumerates", those bullets that contain that specific text: search by enumeration. "Backspace" all the text and the hidden bullets appear again.</p>
 </div>
 
-<h3>Search by traversal:</h3>
+<h3>Search by traversal.</h3>
 <div>
 <p>On the Footer down on the screen, tap on the "back"-button. Now you are traversing backwards through the clips you have entered before. You can also traverse forward through the clips again by tapping the "forward"-button. This all is called: search by traversal.</p>
 </div>
 
-<h3>Drag a freely relocatable bullet between clips:</h3>
+<h3>Drag a freely relocatable bullet between clips.</h3>
 <div>
 <p>In the Footer down on the screen, tap on the "ToScreen1"-button. Tap the bullet "SHOW Lower Part". Now the Top-Clips will be loaded in the lower part of the screen, just like before in the upper-screen. It might be necessary to scroll down to see the second part of the screen, containing a clips with relocatable bullets. Tap here on Top-Clip BRC (:pseudo-bullets are preceded with "_"), wait some seconds, and see how it's bulleted content shows up. Gently tap a bullet, hold it for a second, then move it up (:drag) the screen. If the bullet reaches the upper-edge of the screen, it will automatically scroll. It can now be dropped anywhere within the upper part of the screen that is holding a clip with content.</p>
 </div>
 
-<h3>Save into memory/files:</h3>
+<h3>Save into memory/files.</h3>
 <div>
 <p>Nothing is somehow saved yet. In the Footer down on the screen, tap on the "ToScreen1"-button. Tap the F(unction)-bullet "SAVE into MEMORY", the changed Upper Screen Clip is written into memory and you are returned to Screen 2. Tap again on the "ToScreen1"-button and then on "SAVE Memory into FILES" and everything in memory is now written back into the files on storage. The reason for this 2-step process is that you don't have to write back to a file every time some (minor) changes are made. Only when you're satisfied with the larger result you might decide to write it into a file. A 1-pass action will also be added in the future.</p>
 </div>
 
-<h3>Functions on Screen 1:</h3>
+<h3>Functions on Screen 1.</h3>
 <div>
 <p>SHOW Upper Content: show all bullets content together on a single page instead of only 1 bullet.<br />
 SHOW Lower Content: show all bullets  content together on a single page instead of only 1 bullet.<br />
@@ -92,12 +92,12 @@ SAVE Into MEMORY: If tapped then ALL changes made into the clip are written into
 SAVE Memory To FILES; The data in memory is now written back to the (as of this moment two) files they came from.</p>
 </div>
 
-<h3>Footer commands:</h3>
+<h3>Footer commands.</h3>
 <div>
-<p>Screen 1:<br />
+<p>Screen 1.<br />
 SortON/OFF: allows you to sort the bullets on the Function Page, temporarily as of this moment. <br />
 ToScreen2: Go to Screen 2 where you can manipulate bullets.<br />
-Screen2:<br />
+Screen2.<br />
 ToScreen1: Go to page 1 where the functions are that are performed on the clip/bullets here on Screen 2.<br />
 Back: traverse to previously visited clip.<br />
 Forward: traverse to next visited clip.<br />
@@ -105,7 +105,7 @@ ToLower/Upper: make Back/Forward traversal possible for Lower or Upper Clip resp
 If you drop a bullet on the (Upper or Lower Screen) clip-name, it will be added to the TEMPORARY-clip, so that you can use it later. If you move a bullet to the top of the clip, but don't want a bullet to be added to the TEMPORARY-clip, then do as follows: like said, move the bullet to the top and wait until the nearest bullet there moves down and away; now you can drop the bullet on this open place.<br />
 If you drop a bullet on the (Upper or Lower Screen) clip-name, it will be added to the TEMPORARY-clip, so that you can use it later. If you move a bullet to the top of the clip, but don't want a bullet to be added to the TEMPORARY-clip, then do as follows: like said, move the bullet to the top and wait until the nearest bullet there moves down and away; now you can drop the bullet on this open place.<br />
 <br />
-Screen3:<br />
+Screen3.<br />
 ADDClip: Add Clip as sub-clip to it's super-clip (in the hierarchy).<br />
 ADDBullet: Add bullet to clip.<br />
 Cancel: Cancel action and return to Screen 1.<br />
@@ -138,13 +138,13 @@ Drag (pseudo)bullets to blue colored clip-name and drop them there. When finishe
 There are 3 basic kind of screen outputs: the bullet/clip page where you can manipulate bullets and clips like sorting, changing, adding and deleting bullets. A bullets content can be changed, a clips content also, but not its name as of this moment. It uses only 1 visible clip if you want to re-sort bullets in the clip itself. It uses minimal 2 clips if you want to drag bullets into the clip under focus, from other clips. <br />
 All data are kept in XML files: an XML bullets-file and a XML clips-file. When the program start they are automatically read into memory; in the future the user can decide hi/herself which XML-data to load.<br />
 The functions are as of this moment built into the CJE software, but in the next versions the end-user can define and populate them self in an easy way. In the future almost everything can be defined by the user and only the most basic functions are built-in.<br />
-Every bullet either carries a data-piece (immediate addressing) or:<br />
+Every bullet either carries a data-piece (immediate addressing) or.<br />
 -is a direct link to a datafile or application (direct addressing).<br />
 -calls a handler either within CJE or outside CJE (term.: endpoint) that takes care of returning the requested data-piece or function to you (indirect addressing).<br />
 In its basic form 1 or 2 clips will be shown. The upper clip is the main clip, where you read text, see images, watch movie scenes or hear audio by tapping on it. The optional lower clip is (as of this moment) only used to drag bullets from. Both clips can be searched through (by enumeration) and traversed through. You can also re-sort things here (UPPER clip only) by dragging bullets around.</p>
 </div>
 
-<h3>At this moment 2 forms of searching are used:</h3>
+<h3>At this moment 2 forms of searching are used.</h3>
 <div>
 <p>-Search by enumeration: searching completely done by the system and gives you an enumeration of things it found.<br />
 -Search by traversing: searching by manually traversing adjacent items/lists one at a time.</p>
@@ -153,24 +153,24 @@ In its basic form 1 or 2 clips will be shown. The upper clip is the main clip, w
 <br />
 <div id="accordion2">
 CJE INSTALLATION GUIDELINES.
-<h3>Step 1:</h3>
+<h3>Step 1: Test-conditions.</h3>
 <div>
 <p>This software has been tested on a rooted Linux-ed Android Device (:LAD), i.e. Android with Linux debootstrapped (see Installing LinuxDeployment).<br />
 Tested: Samsung Galaxy S2  GT-I9100 international version.<br />
 Android version: 2.3.6 Gingerbread, rooted (must be done by yourself).</p>
 </div>
 
-<h3>Step 2:</h3>
+<h3>Step 2: Used JS- and CSS-scripts.</h3>
 <div>
 <p>JQuery utils from jquery.com/jquerymobile.com: jquery.mobile-1.1.1.CSS, jquery.mobile-1.1.1.js, jquery-ui-1.8.24.custom.js, jquery-1.8.2.js and Dave Furfero's jquery.ui.touch-punch.js at touchpunch.furf.com.<br />
 If you already have a server with CGI on Android than, you don't have to install an extra Linux server and you can skip the instructions below. Just place the right script plus files in the CGI-bin map, with the rightread/write/execution rights and and all the other files in your web-servers documentroot like /var/www. Done.</p>
 </div>
 
-<h3>Step 3:</h3>
+<h3>Step 3: The installation software.</h3>
 <div>
 <p>Installed LinuxDeployment apk, a Linux installer or any other Linux installer to your liking, from Google Play.<br />
 Linux is to setup as a (here Debian-Squeeze) server without gui.<br />
-Settings of LinuxDeployment apk:<br />
+Settings of LinuxDeployment apk.<br />
 distro: Debian; distro suite: Squeeze; architecture: armel; mirror url: http://mirror.yandex.ru/debian; installation path: /mnt/sd-card/linux.img; image size(MB): 1024; file system auto; username: androiddns server: automatic detection; localization: en_US.UTF-8; desktop environment: xterm; install gui: no; ssh: yes; vnc: no; x window system: no; custom start up: no; custom mount: yes; mount path: /mnt/sd-card/external_sd; ssh-port: 22; (the rest is of no importance because no gui).<br />
 Then installed Debian via  "Install" (takes some time).<br />
 Then mount image via "start" as loopback on address 127.0.0.1.<br />
@@ -178,7 +178,7 @@ Installed ConnectBot (ssh client) apk from Google Play.<br />
 Connect on ssh with name android@localhost with password "changeme" (it will first ask to accept key to which "y" should be answered).</p>
 </div>
 
-<h3>Step 4:</h3>
+<h3>Step 4: Apache as webserver.</h3>
 <div>
 <p>Type: sudo su -, if you want to do things on root level.<br />
 Install Apache2: aptitude install apache2.<br />
@@ -186,10 +186,10 @@ CGI server processing is necessarcgi-bin to /var/www/cgi-bin. This must also be 
 Added some AddType directives in /etc/apache2/hhtpd.conf (is also included in CJE). Start apache with service apache2 start. It will respond with " could not reliably determine servers fully qualified domain name...". This means that one must open a local web-file via apache2 with http://localhost/CJE.HTML or http://127.0.0.1/CJE.HTML.</p>
 </div>
 
-<h3>Step 5:</h3>
+<h3>Step 5: Used browser and videoplayer.</h3>
 <div>
 <p>Tested with (an outsider!) Dolphin Browser mobile version 9.3.2 for best results. Firefox and Opera Mobile sometimes showed some minor issues, and mp3/mp4 were not recognized (they default on ogg). Future releases, definitely will work seamlessly, we can trust on that.<br />
-Tested with an apk called Videos version 1.0, that was installed by default on Android version 2.3.6. Other video-players showed some erratic behavior or just get stuck.<br />
+Tested with an apk called Videos version 1.0, that was installed by default on Android version 2.3.6 and showed good "behavior". Other video-players showed some erratic behavior or just get stuck.<br />
 Cje.HTML, CJE1.XML, CJE2.XML, mp4 video and JQuery (et al) files are placed in /var/www. Script files like save.sh and accompanying files are placed in /var/www/CGI-bin. <br />
 Ofcourse one can choose for any other configuration. Once you are familiar with it's layout, you can replace the XML-files content with any CJE-compliant XML-data.<br />
 Thanks to the fact that the /mnt/sd-card/external_sd is automatically mounted (this must be expressively set!) when the linux.img starts up, you can easily copy/move files between one's external sd-card and the active linux.img. You should be able to read/write from/to external sd-card on a rooted device, but android won't execute scripts/executables from there.</p>
@@ -197,10 +197,10 @@ Thanks to the fact that the /mnt/sd-card/external_sd is automatically mounted (t
 
 <h3>How can CJE be used?</h3>
 <div>
-<p>1. On the smartphone, either by:<br />
+<p>1. On the smartphone, either by.<br />
 	-installing everything on the smartphone (see Installation Guidelines above), but then a server must also be installed. Probably only developers or users with more-than-average-skill will do this. You will be able to locally save changes that you make.<br />
 	-loading the page directly from the website www.calamityjaneexpress.NET. You will be able to play around with it, but you will not be able to save/store the changes that you make to it. If you want to start all over again, you must refresh the page or reload the page from the website again.<br />
-2. On the desktop, either by:<br />
+2. On the desktop, either by.<br />
 	-installing everything on the desktop (see Installation Guidelines above). The same story that applies to the smartphone also applies to the desktop. You can now mimic a smartphone by shrinking your browser to that of a, say 5 inch smartphone. This way you can play around and get an idea how things might work on a smartphone. You will then be able to locally save changes that you make.<br />
 	-loading the page directly from the website www.calamityjaneexpress.NET. You can now mimic a smartphone by shrinking your browser to that of a, say 5 inch smartphone. This way you can play around and get an idea how things might work on a smartphone. You will not be able to locally save the changes that you make.<br />
 3. A combination of above. Install on the desktop as described and load via wifi on your smartphone. Especially for those who don't have a rooted smartphone but know how to install things on a desktop.<br />
@@ -276,10 +276,11 @@ IS THIS AN ISSUE OR WHAT?
 <p>Drag the bullet not too close to the blue pseudo-bullet = Clip-name. Then wait until underlying bullet moves away. Now you can drop bullet in open space where it will reside instead of disappearing via blue-colored clip-name into TEMPORARIES-clip.</p>
 </div>
 
-<h3>Some Known Issues:</h3>
+<h3>Some Known Issues.</h3>
 <div>
 <p>-especially after "ENABLE selection" is activated (on screen 1) the bullets in the lower clip (when activated) become non-responsive. In this case it might then also happen that the Footer constantly hides away, so that you can not go the another screen or that if you tap on the Footer, the content of a bullet is shown in its place. You might try to use the browsers back-button, although not preferred in other situations, because of the possibility of messing up CJE's own history-track. No idea why...(should be taken care of in the next version).<br />
 -When in select mode (screen 1), in the Upper part bullets can be selected as expected, but the bullets in the lower part don't respond. This should be taken care of in the next version.<br />
+-When creating a bullet and then directly wanting to change it makes the text "TO BE CREATED" not go away anymore after creating. One can always afterwards,after having saved in on storage, open the cjea.xml file and then manually delete it.This should be taken care of in the next version.<br />
 -Sometimes when in screen 2 and tapping for screen 1 the system goes to screen 1 and immediately back to screen 2. Don't have a clue how comes, but should be taken care off in next version.</p>
 </div>
 
@@ -296,7 +297,7 @@ Can it be improved, can it be extended? Absolutely, most definitely! Any ideas? 
 
 <div id="accordion4">
 TO BE IMPLEMENTED.
-<h3>Not implemented or provided yet:</h3>
+<h3>Not implemented or provided yet.</h3>
 <div>
 <p>-As of this moment there is little documentation about the technical internals. I'm working on it.<br />
 -Function bullets and (on screen 1) and data-bullets (on screen 2) are not mixed and/or mixable yet.</p>

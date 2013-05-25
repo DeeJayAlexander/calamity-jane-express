@@ -1,5 +1,5 @@
 <root>
-<cl na="counter" xid="id_0">11264</cl>
+<cl na="counter" xid="id_0">11265</cl>
 <cl na="ARC" xid="id_10000">
 <bu cl="txt" xid="id_1">README 1st: Here are all the sub-clips (sub-clips always start with a "_"). Tap on it to see the bullets each sub-clip contains. Once in a sub-clip, tap on a bullet to view it's content. 
 Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
@@ -1556,7 +1556,7 @@ In the future, it should also be possible to create local pipes on board and the
 Learn more about Yahoo Pipes and RSS (fastwonderblog.com)
 </a>
 </bu>
-<bu xid="id_11200">README 1st: These are files from FEMA in epub format so that you can read it with special e-reader software. The **-marks mean that of this moment it can only be viewed if you simulate this whole web-app on a desktop/laptop. On a smartphone/tablet it will show you garbled data because the epub format will not automatically fire up an e-reader app. In future versions it should also be possible to start ANY native app and/or open ANY filetype from this "bui" (:bulleted-user-interface), so that EVERYTHING can be opened/started from here.
+<bu xid="id_11200">README 1st: These are files from FEMA in epub format so that you can read it with special e-reader software. The **-marks mean that of this moment it can only be viewed if you simulate this whole web-app on a desktop/laptop. On a smartphone/tablet it will show you garbled data because the epub format will not automatically fire up an e-reader app. In future versions it should also be possible to start ANY native app and/or open ANY filetype from this "CJE-bui" (:bulleted-user-interface), so that EVERYTHING can be opened/started from here.
 The files are from Fema and are only converted here, at my site into epub-format, to make it readable with an e-reader hardware/software.
 Credits go to Fema at www.fema.gov. There is NOT ANY affiliation between Calamity Jane Express ® and Fema.</bu>
 <bu cl="lnk" xid="id_11201">
@@ -1691,5 +1691,8 @@ During the creation of a clip only alphanumerical characters and underscores are
 </bu>
 <bu xid="id_11264">README 1st; Tapping on these bullets show the manifests in images.
 In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the image. </bu>
+<bu cl="lnk" xid="id_11265">
+<a id="id_11265" rel="external" href="cje9.png">Manifest 9</a>
+</bu>
 </cl>
 </root>
