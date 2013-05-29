@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Calamity Jane Express (R)</title>
 <link rel="stylesheet" href="jquery-ui-1.9.2.custom.min.css" />
 <script src="jquery-1.9.1.min.js"></script>
 <script src="jquery-ui-1.9.2.custom.min.js"></script>
@@ -91,6 +90,14 @@ In this concept the user will be able to compose his/her own web-based apps on-t
 <p>TIP1. Do NOT use the browsers Backpage-key or you might mess up CJE's internal history-track unless strict necessary (e.g. after watching images, video or listening to audio). Use CJE's own Backward- and Forward-button on the footer of the page instead (should be taken care off in next versions). When mimicking it on a desktop, you might use function-key F11 "Full Screen" to avoid accidently pressing the browsers Backpage-button.</p>
 <p>TIP2. Actually this software-version is developed for smartphone screensize, although the idea of a "bulleted-user-interface" or "CJE-bui" is also well fit for desktop screensize and larger. If you use desktop screensize, you might simulate the smartphone-view by just shrinking the browser to smartphone size.</p>
 <p>TIP3. Developers-version: All files in the webserver's document-root are read-only, except cjea.xml and cjeb.xml. Those two files are written to by the executable script cje.sh in cgi-bin. All files in cgi-bin must be read and written to, except the script cje.sh, which must be readable and executable.</p>
+</div>
+
+<h3>Some known issues.</h3>
+<div>
+<p>-especially after "ENABLE selection" is activated (on screen 1) the bullets in the lower clip (when activated) become non-responsive. In this case it might then also happen that the Footer constantly hides away, so that you can not go the another screen or that if you tap on the Footer, the content of a bullet is shown in its place. You might try to use the browsers back-button, although not preferred in other situations, because of the possibility of messing up CJE's own history-track. No idea why...(should be taken care of in the next version).<br />
+-When in select mode (screen 1), in the Upper part bullets can be selected as expected, but the bullets in the lower part don't respond. This should be taken care of in the next version.<br />
+-When creating a bullet and then directly wanting to change it makes the text "TO BE CREATED" not go away anymore after creating. One can always afterwards,after having saved in on storage, open the cjea.xml file and then manually delete it.This should be taken care of in the next version.<br />
+-Sometimes when in screen 2 and tapping for screen 1 the system goes to screen 1 and immediately back to screen 2. Don't have a clue how comes, but should be taken care off in next version.</p>
 </div>
 
 <h3 style="color: red;">ONLINE PRESENTATION/ DOWNLOADS (smartphone-version).</h3>
