@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="jquery-ui-1.9.2.custom.min.css" />
 <script src="jquery-1.9.1.min.js"></script>
 <script src="jquery-ui-1.9.2.custom.min.js"></script>
+
   <script>
   $(function() {
     $( "#accordion1, #accordion2, #accordion3, #accordion4, #accordion5, #accordion6" ).accordion({
@@ -25,7 +26,7 @@
 <br />
 
 <h3>The project's goal and manifest.</h3>
-<div id="accordion2">
+<div id="accordion1">
 
 <h3>What is the project's goal?</h3>
 <div>
@@ -50,11 +51,17 @@ For this highly granular and dynamic web-framework, also a new user-interface is
 A sophisticated protection mechanism is also to be developed so that things will be right in place from the start. We should have learned from the successes and pitfalls from the past 30 years, so let's do it right this time!</p>
 </div>
 
+<h3>Why xml well-formed?</h3>
+<div>
+<p>Any xml-based data can be mixed with each other and easily be separated from each other. Not only data but also applications, operating systems and even hardware (xml appliances) can be (partly) partitioned this way. The processflow between frontend (presentation markup) and backend (processing/transport/storage format) is now seamless, no hiccups between front and backend anymore. This partitioning adds to modular design that has benefits: distinguishable parts can be separately addressed that make things easier to handle and things can be outsourced to those that are experts on certain fields.<br />
+In the world of web based apps html notation is leading, and the closest notation to html is xml, nor json, turtle or anything else. To put things more clearly, if html can be well formed to xhtml, than it becomes just a subclass of xml. This opens the way to a plethora of xml based tools for the frontend, but also standardized intelligent frameworks that are often based on strictly defined components (like rdf/owl). To avoid any misunderstanding, json and turtle et all have proved their value in many conditions, so they're here to stay. The right tool for the right job: no question about it. Period.<br />
+</p>
+</div>
 </div>
 
 <h3>Technical Basics (the building blocks).</h3>
 <p>***Web-based design, based on open-standards and XML-well-formed (at least for the context-data part)***</p>
-<div id="accordion3">
+<div id="accordion2">
 <h3>The 3 CJE basic parts.</h3>
 <div>
 <p>
@@ -110,8 +117,8 @@ The attributes in these files contain context- or meta-data and are in the (near
 </div>
 
 
-<h3>And what about the concept's materialization?</h3>
-<div id="accordion4">
+<h3>The concept's materialization.</h3>
+<div id="accordion3">
 <h3>At what devices is it aimed?</h3>
 <div>
 <p>Not the legacy PC but the high-end smartphone, here upgraded to "PC2", is considered the future center of a personal network; PC2: Portable and Personal Computer and Communicator. The desktop, laptop and yes, even tablets, are considered to become peripherals to the (high-end) smartphone one day. For nowadays, high-end smartphones are capable enough to accomplish common daily computer-tasks, while also providing 24/7-communication and 24/7-mobility by nature: it has got it all for personal needs! And for tasks that demand real horsepower and/or central coordination, we will (re-)introduce the domestic server.<br />
@@ -119,7 +126,7 @@ Another important thing of the just upgraded "PC2" is that it's default workings
 So, in this to be developed web-framework the high-end smartphone, or PC2, is actually double upgraded!</p>
 </div>
 
-<h3>How about its networking?</h3>
+<h3>Its networking.</h3>
 <div>
 <p>All the networking is done by the on-board personal proxy server, so so HTTP/IP is the only internal used communication protocol used by the browser. The browser takes only care of front-end processing.<br />
 In the default situation all communication is done on p2p level. The standards to be used should be the ones best fit for emergency situations. Special p2p social software and p2p search engines are already being developed on the Internet and might be interesting candidates. All these kind of things are very important, because after some disaster and in a shattered area, people should be able to setup some kind of a local communication network. With this network they can design a map of threats, needs and resources;. Standards for all this already exist (cap, edxl etc). In this emergency network the people's devices are to be multi-purpose: they can also serve as routers, backup storage, or do some kind of federated processing of emergency information. If at least one of the devices manages to be connected to the Internet, it can act as a gateway for the rest of the on-the-fly emergency network. To prevent indigestion and to increase network performance, data must be sent in standardized emergency codes, that, when arrived at the users devices, is translated into the users mother-tongue with the help of a standardized hash translation table. Processor power, storage capacity and communication throughput can be shared in the network to increase its resilience, especially during an emergency situation. This federated setup is also advocated by the W3C web standardization organization, and they have on-line literature on that.<br />
@@ -128,7 +135,7 @@ In an emergency situation, a network might get jammed because of the huge amount
 There are already communities in our world world that have such an ad-hoc mesh it-network, and have certain knowledge and skill about how to let these things work in a stretched-out area with scarce it-means.</p>
 </div>
 
-<h3>An on-board personal proxy server?</h3>
+<h3>An on-board personal proxy server.</h3>
 <div>
 <p>
 An on-board personal proxy takes care of all communications with the network and with the device file-system itself.<br />
@@ -138,7 +145,14 @@ When a device contacts the cloud it now becomes part of the cloud itself, thanks
 The moment the end device is being connected with its ISP (Internet Service Provider), it not just connects with the cloud, but becomes a part of the cloud itself, thanks to it's existing on-board server. That means that, while being on-line, direct contact with a device next to you is not regarded as a connection outside the Internet but as a connection within that same Internet.</p>
 </div>
 
-<h3>What is the goal of this to-be CJE web-framework in a (potential) emergency situation?</h3>
+<h3>The domestic server.</h3>
+<div>
+<p>
+We will also reintroduce a domestic hardware server, that forms the center of a domestic network and seamlessly works together with all other devices in the house. In the "Calamity Jane Express(R)" project we will ofcourse focus on its role as the center for emergency situations and the prevention thereof. Things like burgler-, smoke- and monoxide alarms could be attached to this network and be controlled from the pc2 (smartphone) via the central hardware server, which ofcourse can also serve other purposes (video and audio provision for example). The domestic server must be a turnkey installation thing, no expertise should be needed and might be build with older equipment that is not used, to start with. The idea of having a domestic hardware server and an onboard software server on your pc is not new; Microsoft introduced this idea  of a hardware server already at the beginning of this century and the idea of the software server even with Windows 95.
+</p>
+</div>
+
+<h3>Mission of this to-be CJE web-framework in a (potential) emergency situation.</h3>
 <div>
 <p>The basic ideas are:<br /><br />
 
@@ -190,6 +204,24 @@ To show that the ingredients of this project is everything but brandnew, let's l
 -All other things like open standards, semantics, ubiquitous computing and communication and a preferred federative network structure etc are already advocated for many years by W3C and other standard organizations.This also applies to the field of emergencies. See a "List Of Links" for their websites.<br />
 <br />
 Ergo: Nothing new under the sun, just some re-arranging and re-combining, but where probably something called "topsight" (:David Gelertner's book "Mirror Worlds") might kick in...<br />
+</p>
+</div>
+</div>
+
+<h3>A peek into the future.</h3>
+<div id="accordion4">
+<h3>WOS/3: a Web Of Operating Systems.</h3>
+<div>
+<p>In the future (intelligent) Operating Systems (OS) are no longer always started-up rooted into the hardware, but can freely move around and can somehow (smartly) be related to each other as, say WOS/3: Web Of Operating Systems, based On Open Standards and with Ongoing Semantics (what's in a name?). Their sizes can grow (by mounting) and shrink by (by unmounting) on the fly. This way virtual vehicles can be merged into a bigger system at a certain spot and split apart into its subparts in another spot. It can also just function as a piggyback carrier, carrying other OS's for portable devices, that can then be launched into the portable device at the right time. Even portable devices can have more than one vm into them, that themselves move in and out of the portable device (Samsung is developing one).<br />
+In the nineties sun launched the slogan: the network is the computer. Now this can be complemented with slogan: the computer is the network. Why be satisfied with 1 operating system if you can have more operating systems on 1 machine?<br />
+In the new situation all V2's are directly on top of the so-called (virtualization) hypervisor. So any V2 can be placed in front, but in some future CJE Framework for example, it will be the browserspecific V2 that is in the front, while others act as backend/broker/brain server V2's. V2's can keep an eye on each other to look for suspicious behavior that might reveal the presence of viruses or hacks. There is now not only a horizontal protection (within an operating system, e.g. administrator vs ordinary users) but also a vertical protection, namely between OS V2's. If one V2 is contaminated, you can just fire up an other one and have this infected V2 investigated by other V2's instead of a infected machine inspecting itself.<br />
+</p>
+</div>
+
+<h3>The advantage of all-for-one vs one-for-all services.</h3>
+<div>
+<p>Back in time our early ancestors were hunter/gatherers. After a certain period, when the population increased, the rivalry amongst each other increased, because they were all more or less "fishing" in the same waters. Later, when living in communities, they found out that it might be better if each individual specializes in what he/she is good at and then exchange their products and/or services in a fair and common way. This fair  and common way of trade made sure that every one could make a reasonable living. It turned out to be that communities with the most specialized activities were florishing the most, compared to communities where its inhabbitants were doing more or less the same thing as to have a living.<br />
+One can draw this comparisson also to web-based services. We can have a situation were everyone wants to be the one and only one-stop for everything or a situation where web-based services specializes where they are best in. They can then offer this on a fair and common "marketplace" were visitors can choose the services they need most and then compose their own "personalized solution" focussed on their specific situation, either with or without help of third parties. This can even go as far as just-in-time or hit-and-run functionality, i.e. on a per-use instead of a per-user basis in the most extreme situation. The CJE-Framework is just made for this, although it can work as well in more static situations. It's parts can be found on the CJE website itself, but also on other websites with specialized servcies. In the future we will try to integrate these different parts on different websites somehow into the CJE framework.</p>
 </p>
 </div>
 </div>
