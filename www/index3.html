@@ -1,0 +1,125 @@
+<!doctype html>
+ 
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Calamity Jane Express (R)</title>
+<link rel="stylesheet" href="jquery-ui-1.9.2.custom.min.css" />
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery-ui-1.9.2.custom.min.js"></script>
+  <script>
+  $(function() {
+    $( "#accordion1, #accordion2" ).accordion({
+		heightStyle: "content",
+		collapsible: true,
+		active: false
+		});
+  });
+  </script>
+</head> 
+
+<body>
+<br />
+<h3>Calamity Jane Express (R), a web-based emergencies message-browser.</h3>
+(a registered trademark in the U.S. and other countries)<br />
+<h3>List Of Activities (summary).</h3>
+<div id="accordion1">
+
+<h3>Acitivity 1.</h3>
+<div>
+<p>Make things fit with "Missing Link"-project between CJE-project and "!Yahoo Pipes"-project into a basic working WODAF-framework.
+</p>
+</div>
+
+<h3>Activity 2.</h3>
+<div>
+<p>
+Install Apache (:done) + Fuseki + Jena + Pellet -rdf/owl-semantic framework. Install Java runtime first.<br />
+Look for (semi-) official emergency/disaster ontologies or, if not present, make a basic one yourself to be used with installed semantic framework and data present in CJE-wepp.
+</p>
+</div>
+
+<h3>Activity 3.</h3>
+<div> 
+<p>Study possiblility to make Sahana-backend fit for smartphone and how to be integrated with semantic framework (as wrapper?) and with CJE-bui.
+</p>
+</div>
+
+<h3>List Of Used Abbreviations.</h3>
+<div>
+<p>TWODAF: Web Of Data And Functions<br />
+CJE: Calamity Jane Express(R)<br />
+bui: bullet-user-interface<br />
+wepp: web-enabled app<br />
+rdf: esource description framework<br />
+owl: web ontology language<br />
+</p>
+</div>
+</div>
+
+<h3>Acitivity 1: Realization of a basic WODAF/CJE(1) framework.</h3>
+<p>Like stated before, the WODAF/CJE framework can already realized in, be it in a basic form, since two existing projects can already deliver most basic materials: The "Calamity Jane Express"(R) project and the "!Yahoo Pipes" project. A third "project", here called the "Missing Link" must be added to get it done.<br />
+(1) WODAF: Web Of Data And Functions; CJE: Calamity Jane Express(R)
+</p>
+<div id="accordion2">
+<h3>"Calamity Jane Express"(R) concept-summary.</h3>
+<div>
+<p>On the display, (passive) data- and (executable) functions, are being represented as uniform relocatable so-called "bullets", since they have a bullet-like shape, that can simple be dragged/dropped within and between so-called "clips". A clip is just a bunch of bullets "closely packed together" (like they belong to some category, class etc). This way, the "calamity Jane Express"(R) user-interface is a bullet-user-interface, named CJE-bui. Presently, on an Android smartphone, the CJE-bui has a maximum of two "clips" on top of each other (:UPPER-CLIP/LOWER-CLIP). Devices with larger screens might have more clips plus a visible so-called common canvas, an space that is omni-addressable by any bullet (if allowed so), where these bullets can "explode" their content. Clips can contain sub-clips that also have the shape of a bullet, but then are called pseudo-bullets. Tapping/clicking on such a pseudo-bullet loads a new clip with bullets, that replaces the original ones. This way you can traverse from clip to clip. Clips can have multiple sub-clips, or children, and multiple parents. Like said, bullets can freely be relocated, by drag/drop, within and between clips. The clips only contain data/references to the local device.<br />
+Under the hood and in web-terms, a bullet is actually nothing but a list-item "&lt;li /&gt;" and a clip is nothing but a listview "&lt;ul /&gt;".<br />  
+On a smartphone with two clips visible, in web/HTML terms, it looks something like this:<br />
+<br />
+...<br />
+&lt;ul&gt;<br />
+&lt;li..................&lt;/li&gt;<br />
+...							(UPPER-CLIP)<br />
+&lt;li..................&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+...								(&lt;li...&lt;/li&gt; on the display represented as bullets that can be dragged/dropped from LOWER- to UPPER-CLIP and saved locally)<br />
+&lt;ul&gt;<br />
+&lt;li..................&lt;/li&gt;<br />
+...							(LOWER-CLIP)<br />
+&lt;li..................&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+...<br />
+<br />
+</p>
+</div>
+
+<h3>"!Yahoo Pipes" concept-summary.</h3>
+<div>
+<p>With "!Yahoo Pipes" you can re-process data coming from different sites into some desired end-result. The re-processing "actors" are represented by configurable and 2-dimensional relocatable bullets, with which to define the data-reprocessing, that can be interconnected to set up a re-workable data-stream between them. This can be done in a relatively convenient way but with some learning curve, although definitely not steep. Everyone with a Yahoo account can fabricate it and everyone else, account or not may use it. The "product/service" is a so-called "pipe" and the end-user might even provide parameters to it. You can even select whether you want the result returned to you as email, RSS- or JSON-format etc. And all finally represented by a copyable link. When you tap/click on it, voilà, the results or returned to you in e.g. JSON-format. Even for a non-novice (like me) it might take some time to find out how things work.<br />
+But, they are already using bullets to compose a pipe. Now what if the "pipe"-link also would be presented as a bullet, lined up with other bullets in some clip, that could easily be dragged and dropped to your local device and maybe even vice-versa, when allowed so?<br />
+Pipe-links that can be copied and used by everyone, looks something like this, provided with the necessary parameters (and if e.g. JSON-format is chosen):<br />
+<br />
+http://pipes.yahoo.com/pipes/pipe.run?_id=VEm5_4253BGSBceQJphxuA&amp;_render=json&amp;filterCriteria1=flood&amp;zoneCode=TXZ16 (from: Weather alert!).<br />
+http://pipes.yahoo.com/pipes/pipe.run?_id=vkbigS9w3BGFQgxmLe2fWQ&amp;_render=json (from: FEMA Regional News)<br />
+http://pipes.yahoo.com/pipes/pipe.run?State=WI&amp;_id=Sk81h4cH3RGl44WkJZhxuA&amp;_render=json (from: National Severe Thunderstorm Warnings)<br />
+http://pipes.yahoo.com/pipes/pipe.run?_id=xL2ZsmPI2xGZEhiNkAtvUw&amp;_render=json (from: Wildfire News)<br /> 
+<p></div>
+
+<h3>"Missing-Link" concept summary.</h3>
+<div>
+<p>The "Missing-Link" is a mechanism that might work as follows:
+A special "!Yahoo-Pipes" bullet that is locally on the device, when tapped/clicked, sends via AJAX a link with a special parameter, e.g. wodaf=yes and receive=yes, to the "!Yahoo Pipes"-site, like: http://pipes.yahoo.com/pipes/pipe.run?_wodaf=yes&amp;receive=yes. What is being returned looks, in web/HTML terms, something like this:<br />
+<br />
+...<br />
+&lt;ul&gt;<br />
+&lt;li...http://pipes.yahoo.com/pipes/pipe.run?_id=VEm5_4253BGSBceQJphxuA&amp;_render=json&amp;filterCriteria1=flood&amp;zoneCode=TXZ16&lt;/li&gt;<br />
+...<br />
+&lt;li...http://pipes.yahoo.com/pipes/pipe.run?_id=vkbigS9w3BGFQgxmLe2fWQ&amp;_render=json&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+...<br />
+<br />
+... and is via AJAX directly inserted in the LOWER-CLIP and presented to the user as a clip with relocatable bullets, that can be selected and inspected for its contents (data and/or functionality), then selected and dragged to the UPPER-CLIP. You can now save the clip locally as usual. Next time when you recall this clip and its bullets and you tap on some "!Yahoo Pipe"-bullet, this link-bullet is fired into the "!Yahoo Pipe"-website, processed there by e.g. the "Weather Alert!"-pipe, and its result is then sent back to you where it might be further processed.<br />
+For the novice it would be nice if the result could be directly displayed on the display in some comprehensible and attractive way, instead of having to fiddle with some "abracadabra" JSON-data. Vice-versa should then also be possible: submitting clips with bullets, like forms, to other devices and/or sites, or the other party takes the initiative and loads clips with bullets from your device, when allowed so. While traversing from (remote) clip to (remote) clip, you may now drag/drop bullets that you like to your local device and save them and/or vice versa. As of this moment only the data/reference/links within the bullets(/list-items) are saved and not some remote data/file/script it might refer to. But this should be possible too in a future release. In that case when a link-bullet to some remote site is tapped/clicked, the remote data/file/script will not directly be streamed to the display or speakers, but just st</p>  
+</div>
+
+<h3>Conclusion.</h3>
+<div>
+<p>With minimal programming effort it should now be possible, be it in an initial basic way, to drag & drop data- and function-bullets to and from others on-the-fly! Like stated before, this is exactly why the "Calamity Jane Express"(R)-project was created: when in some emergency situation and when the default network is down or jammed, being able to set-up some local (wireless) ad-hoc communication network, where one can make use of each others data and functionality on-the-fly.
+</p>
+</div>
+</div>
+
+</body>
+</html>
