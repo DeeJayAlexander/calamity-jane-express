@@ -140,7 +140,7 @@
 		var nrx = nr.toString();
 		$('#'+b).after('<li />');
 		$('#'+b).next().attr('id','id_'+nrx);	
-		$('#id_'+nrx).addClass('NEW').text($('#f10a textarea').textinput().val()).prepend('<strong>TO BE CREATED !!+ </strong>');
+		$('#id_'+nrx).addClass('NEW').text($('#f10a textarea').textinput().val()).prepend('<strong>NEW!!+ </strong>');
 		if ($('#f10aa textarea').textinput().val() != '') {$('#id_'+nrx).addClass('lnk').data('lnk',$('#f10aa textarea').textinput().val())}
 		else {$('#id_'+nrx).addClass('txt')};//added***
 		$('#b101b').click();
@@ -165,8 +165,8 @@
 			if ($('#'+b).hasClass('lnk')) {if ($('#'+b).hasClass('NEW')) {} //if NEW just keep original value 
 			else {$('#f10aa textarea').textinput().val($('a[id="'+b+'"]', xmla).attr('href'))}}//is bullet NEW added***
 			else {$('#f10aa').addClass('hide');};	
-			if ($('#'+b).hasClass('NEW')){$('#f10a textarea').textinput().val($('#'+b).text().substr(18));};
-			if ($('#'+b).hasClass('CHANGE')){$('#f10a textarea').textinput().val($('#'+b).text().substr(18));};
+			if ($('#'+b).hasClass('NEW')){$('#f10a textarea').textinput().val($('#'+b).text().substr(7));};
+			if ($('#'+b).hasClass('CHANGE')){$('#f10a textarea').textinput().val($('#'+b).text().substr(11));};
 			$('#b101c').click();
 			break;		
 			case '0':
@@ -182,8 +182,8 @@
 			$('#'+b).text($('#f10a textarea').textinput().val());
 			$('#f10a, #f10aa, #f11a').addClass('hide');
 			$('#b101b').click(); 	
-			if ($('#'+b).hasClass('NEW')){$('#'+b).prepend('<strong>TO BE CREATED !!+ </strong>');} else {
-			$('#'+b).addClass('CHANGE').prepend('<strong>TO BE CHANGED !!$ </strong>');};
+			if ($('#'+b).hasClass('NEW')){$('#'+b).prepend('<strong>NEW!!+ </strong>');} else {
+			$('#'+b).addClass('CHANGE').prepend('<strong>CHANGES!!$ </strong>');};
 			if ($('#'+b).hasClass('lnk')) {$('#'+b).data('lnk',$('#f10aa textarea').textinput().val())};
 			$('.sel').removeClass('sel');//***
 			Colorize();//***
@@ -193,7 +193,7 @@
 	//PREPARE CLIP CREATION/CHANGE (1/2)
 			suc = $('.classname1').attr('id');
 			$('#f9a, #f9b').removeClass('hide');
-			if ($('.classname1').hasClass('NEW')){$('.classname1').text($('.classname1').text().substr(18))};
+			if ($('.classname1').hasClass('NEW')){$('.classname1').text($('.classname1').text().substr(7))};
 			$('#f9a textarea').textinput().val('');
 			$('#b101c').click();
 	}	
@@ -203,14 +203,14 @@
 		var na = $('#f9a textarea').textinput().val();
 		var c = $('[na='+'"_'+na+'"'+']', xmlb).size();
 		if (c==0){}	else {alert('Clipname allready exists, must create UNIQUE name!'); return};				
-		if ($('.classname1').hasClass('NEW')){$('.classname1').text(na).prepend('<strong>TO BE CREATED !!+ </strong>');}
+		if ($('.classname1').hasClass('NEW')){$('.classname1').text(na).prepend('<strong>NEW!!+ </strong>');}
 		else {
 		nr = nr + 1;
 		$('[na="counter"]', xmla).text(nr.toString());
 		var nrx = nr.toString();
 		$('.classname1').addClass('NEW').attr("id","id_"+nrx);
 		if (suu==true){$('.classname1').addClass('SU')};
-		$('.classname1').text(na).prepend('<strong>TO BE CREATED !!+ </strong>');
+		$('.classname1').text(na).prepend('<strong>NEW!!+ </strong>');
 		Message("Clip added/changed in upper window.");	
 		};
 		$('#sortable1 li:not(".classname1")').remove();		
@@ -228,7 +228,7 @@
 		else { return};
 		var a = $('.classname1').attr('id');	
 		var b1 = $('.classname1').text();
-		var b = '_' + b1.substr(18);
+		var b = '_' + b1.substr(7);
 		var cli = xmlb.createElement('cl');		
 		$(xmlb).find('cl:last').after($(cli));
 		$(xmlb).find('cl:last').attr('na',b);
@@ -480,7 +480,7 @@
 			if ($('.sel:eq('+k+')').hasClass('NEW')){$('.sel:eq('+k+')'); $('.sel:eq('+k+') > strong').remove();};
 			if ($('.sel:eq('+k+')').hasClass('CHANGE')){$('.sel:eq('+k+')').removeClass('CHANGE'); $('.sel:eq('+k+') > strong').remove();};
 			if ($('.sel:eq('+k+')').hasClass('VANISH')){$('.sel:eq('+k+')').removeClass('VANISH'); $('.sel:eq('+k+') > strong').remove();};						
-			if ($('.sel:eq('+k+')').hasClass('DEL')) {} else {$('.sel:eq('+k+')').addClass('DEL').prepend('<strong>TO BE DELETED !!- </strong>');};};
+			if ($('.sel:eq('+k+')').hasClass('DEL')) {} else {$('.sel:eq('+k+')').addClass('DEL').prepend('<strong>DELETE!!- </strong>');};};
 			$('.sel').removeClass('sel');
 			$('#b101b').click();
 			}
@@ -499,7 +499,7 @@
 			if ($('.sel:eq('+k+')').hasClass('NEW')){$('.sel:eq('+k+')'); $('.sel:eq('+k+') > strong').remove();};
 			if ($('.sel:eq('+k+')').hasClass('CHANGE')){$('.sel:eq('+k+')').removeClass('CHANGE'); $('.sel:eq('+k+') > strong').remove();};
 			if ($('.sel:eq('+k+')').hasClass('DEL')){$('.sel:eq('+k+')').removeClass('DEL'); $('.sel:eq('+k+') > strong').remove();};		
-			if ($('.sel:eq('+k+')').hasClass('VANISH')) {} else {$('.sel:eq('+k+')').addClass('VANISH').prepend('<strong>TO BE VANISHED !!!- </strong>');};};
+			if ($('.sel:eq('+k+')').hasClass('VANISH')) {} else {$('.sel:eq('+k+')').addClass('VANISH').prepend('<strong>VANISH!!!- </strong>');};};
 			$('.sel').removeClass('sel');
 			$('#b101b').click();	
 			}	

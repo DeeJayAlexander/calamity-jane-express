@@ -954,6 +954,9 @@
 </cl>
 <cl na="_The_Manifest_images" xid="id_11255">
 <bu xid="id_11264" cl="txt"/>
+<bu xid="id_11267" cl="lnk"/>
+<bu xid="id_11268" cl="lnk"/>
+<bu xid="id_11269" cl="lnk"/>
 <bu xid="id_11256" cl="lnk"/>
 <bu xid="id_11257" cl="lnk"/>
 <bu xid="id_11258" cl="lnk"/>
@@ -963,5 +966,6 @@
 <bu xid="id_11262" cl="lnk"/>
 <bu xid="id_11263" cl="lnk"/>
 <bu xid="id_11265" cl="lnk"/>
+<bu xid="id_11266" cl="lnk"/>
 </cl>
 </root>

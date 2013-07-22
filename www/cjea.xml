@@ -1,5 +1,5 @@
 <root>
-<cl na="counter" xid="id_0">11265</cl>
+<cl na="counter" xid="id_0">11269</cl>
 <cl na="ARC" xid="id_10000">
 <bu cl="txt" xid="id_1">README 1st: Here are all the sub-clips (sub-clips always start with a "_"). Tap on it to see the bullets each sub-clip contains. Once in a sub-clip, tap on a bullet to view it's content. 
 Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
@@ -1666,33 +1666,63 @@ During the creation of a clip only alphanumerical characters and underscores are
 <bu xid="id_11254">-A future functionality is the simple addition, change and remove of ... functionality! As of this moment at Screen 1, where you can find most of the web-app's functionality, only resorting of the functions is possible. In screen 2 you can do all kinds of bullet manipulation and processing, but as of yet there is no direct connection between Screen 1 and 2. In the future it will be possible to manipulate the composition of the available functions in Screen 1 via Screen 2. It will then be possible to go to a site where e.g. relocatable function-bullets lay lined up and ready to be dragged and dropped to your device via this CJEbui(1) in an easy way. Under the hood is taken care of that the appropriate scripts are also copied to the right place (if it must be executed on your device, in other conditions only a reference/link is adopted, like examples with Yahoo Pipes). Of course you must have the right framework (e.g. JSP,PHP, ASP, Python, Ruby etc) in place to have the scripts work (if executed local) for you or it must be (semi/auto)installed afterwards. No longer rigid hard-coded functions like in an legacy app, that you never use or that are lacked. Functionality-on-the-fly!
 (1)CJE: Calamity Jane Express; bui: bulleted-user-interface</bu>
 <bu cl="lnk" xid="id_11256">
-<a id="id_11256" rel="external" href="cje.png">Manifest 1</a>
+<a id="id_11256" rel="external" href="cje.png">
+MANIFEST Part1: The Essence of the initial product.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11257">
-<a id="id_11257" rel="external" href="cje2.png">Manifest 2</a>
+<a id="id_11257" rel="external" href="cje2.png">
+MANIFEST Part2: Semantic analogon between CJE-bui front-end and rdf/owl back-end.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11258">
-<a id="id_11258" rel="external" href="cje3.png">Manifest 3</a>
+<a id="id_11258" rel="external" href="cje3.png">
+MANIFEST Part3: Various occurences of bullets, clips and common canvas on the screen.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11259">
-<a id="id_11259" rel="external" href="cje4.png">Manifest 4</a>
+<a id="id_11259" rel="external" href="cje4.png">
+MANIFEST Part4: Data and functionality (partly) opetrational at the web-app (:wepp).
+</a>
 </bu>
 <bu cl="lnk" xid="id_11260">
-<a id="id_11260" rel="external" href="cje5.png">Manifest 5</a>
+<a id="id_11260" rel="external" href="cje5.png">
+MANIFEST Part5 Where the bullets and clips reside and how to search.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11261">
-<a id="id_11261" rel="external" href="cje6.png">Manifest 6</a>
+<a id="id_11261" rel="external" href="cje6.png">
+MANIFEST Part6: The front-end and back-end framework.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11262">
-<a id="id_11262" rel="external" href="cje7.png">Manifest 7</a>
+<a id="id_11262" rel="external" href="cje7.png">
+MANIFEST Part7: How bullets/clips may be presented on different devices.
+</a>
 </bu>
 <bu cl="lnk" xid="id_11263">
-<a id="id_11263" rel="external" href="cje8.png">Manifest 8</a>
+<a id="id_11263" rel="external" href="cje8.png">
+MANIFEST Part8: The CJE Frameworks basic parts and relations.
+</a>
 </bu>
 <bu xid="id_11264">README 1st; Tapping on these bullets show the manifests in images.
 In this situation where you switch to a (non-ajax) loaded page, the only way to return is the browsers Back-button, after you watched the image. </bu>
 <bu cl="lnk" xid="id_11265">
-<a id="id_11265" rel="external" href="cje9.png">Manifest 9</a>
+<a id="id_11265" rel="external" href="cje9.png">
+MANIFEST Part9: The data traversal and the dataflow in a larger network
+</a>
+</bu>
+<bu cl="lnk" xid="id_11267">
+<a id="id_11267" rel="external" href="cje11.png">MANIFEST Part0: The whole and complete framework (summary).</a>
+</bu>
+<bu cl="lnk" xid="id_11268">
+<a id="id_11268" rel="external" href="cje12.png">MANIFEST Part0: The whole and complete framework (more detailed, part1/2).</a>
+</bu>
+<bu cl="lnk" xid="id_11269">
+<a id="id_11269" rel="external" href="cje13.png">MANIFEST Part0: The whole and complete framework (more detailed, part2/2).</a>
+</bu>
+<bu cl="lnk" xid="id_11266">
+<a id="id_11266" rel="external" href="cje10.png">MANIFEST Part10: Candidates for integration in p2p-federated network.</a>
 </bu>
 </cl>
 </root>
