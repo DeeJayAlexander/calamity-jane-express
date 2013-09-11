@@ -1,5 +1,5 @@
 <root>
-<cl na="counter" xid="id_0">11269</cl>
+<cl na="counter" xid="id_0">11329</cl>
 <cl na="ARC" xid="id_10000">
 <bu cl="txt" xid="id_1">README 1st: Here are all the sub-clips (sub-clips always start with a "_"). Tap on it to see the bullets each sub-clip contains. Once in a sub-clip, tap on a bullet to view it's content. 
 Credits go to the American Red Cross and its affiliates at http://www.redcross.org/disaster/disasterguide/standardmsg.html for placing the Standard Messages into the Public Domain. There is NOT ANY affiliation between Calamity Jane Express ® and the American Red Cross and its affiliates.</bu>
@@ -1425,7 +1425,9 @@ Credits go to the American Red Cross and its affiliates at http://www.redcross.o
 <a id="id_11135" rel="external" href="Forearm_splint.jpg">Forearm splint (wikipedia.org, jpg)</a>
 </bu>
 <bu cl="lnk" xid="id_11136">
-<a id="id_11136" rel="external" href="Gray507.png">Head blood vessels-[Gray507] (wikipedia.org, png)</a>
+<a id="id_11136" rel="external" href="Gray507.png">
+Head blood vessels (png)
+</a>
 </bu>
 <bu cl="lnk" xid="id_11137">
 <a id="id_11137" rel="external" href="Tongue-blocking-airways.png">Tongue blocking airways (wikipedia.org, png)</a>
@@ -1491,7 +1493,9 @@ Credits go to the American Red Cross and its affiliates at http://www.redcross.o
 <a id="id_11175" rel="external" href="Raise_or_Floodproof_HVAC _quipment_2-[how2006].epub">**Raise or Floodproof HVAC  equipment 2-[how2006] (Fema, epub)</a>
 </bu>
 <bu cl="lnk" xid="id_11176">
-<a id="id_11176" rel="external" href="Install_Sewer_Backflow_Valves_2-[how2007].epub">**Install Sewer Backflow Valves 2-[how2007] (Fema, epub)</a>
+<a id="id_11176" rel="external" href="Install_Sewer_Backflow_Valves_2-[how2007].epub">
+Install Sewer Backflow Valves (epub)
+</a>
 </bu>
 <bu cl="lnk" xid="id_11177">
 <a id="id_11177" rel="external" href="Reinforce_or_Replace_Garage_Doors_2-[how2016].epub">**Reinforce or Replace Garage Doors 2-[how2016] (Fema, epub)</a>
@@ -1538,7 +1542,7 @@ Credits go to the American Red Cross and its affiliates at http://www.redcross.o
 <bu cl="lnk" xid="id_11191">
 <a id="id_11191" rel="external" href="City-to-cityRespondingAndPartneringInDisaster.ogg">*City-to-city Responding And Partnering In Disaster (archive.org, ogg)</a>
 </bu>
-<bu xid="id_11193">In this clip are the CJE docs. It is now all in one file, but it will be split out in multiple files or (better) "accordionized", be made more comprehensible for the novice and generally improved.</bu>
+<bu xid="id_11193">In this clip are the CJE docs.The clips can be streamed from Youtube or be shown from local stored mp4/ogv video files. In the latter case they must be downloaded from Dropbox-link at http://db.tt/CcYFzgDe. When you receive it, you see the map-tittle "CalamityJaneExpress" and submaps for MP4 and OGV video instructions. Open it and you see the instruction-video's. The upper-right corners says "download". Click on it and all video's are downloaded in a zip-file. Watching it locally gives better quality than watching it online.</bu>
 <bu xid="id_11194">README 1st: The first bullet (actually a sub-clip)  contains streaming video from Youtube. 
 On Android the native Android Video- player gave best result. Others might show erratic behavior. You might try out which video-player gives decent results. 
 The *-mark with video's in the last 2 Clip-bullets mean, that they can only be viewed when you have an on-board server. The video must first be downloaded from Dropbox at http://db.tt/edEJFi4y and must be dropped in the web-document-root (: the same place where all the cje-files reside).
@@ -1561,11 +1565,13 @@ The files are from Fema and are only converted here, at my site into epub-format
 Credits go to Fema at www.fema.gov. There is NOT ANY affiliation between Calamity Jane Express ® and Fema.</bu>
 <bu cl="lnk" xid="id_11201">
 <a id="id_11201" rel="external" href="index2.html">
-CJE technical documentation in 1 file. Once the file is loaded, tap on a subject to see its content (subjects are  grouped "accordionized"). Tap Back-button of browser to return.
+CJE technical documentation
 </a>
 </bu>
 <bu cl="lnk" xid="id_11202">
-<a id="id_11202" rel="external" href="cjeman.html">CJE Manual (to be improved for the novice).</a>
+<a id="id_11202" rel="external" href="cjeman.html">
+CJE Manual (simplified)
+</a>
 </bu>
 <bu cl="lnk" xid="id_11203">
 <a id="id_11203" rel="external" href="http://www.youtube.com/watch?v=1qje-XlNowI">Heart attack  (British Red Cross, streaming)</a>
@@ -1724,5 +1730,156 @@ MANIFEST Part9: The data traversal and the dataflow in a larger network
 <bu cl="lnk" xid="id_11266">
 <a id="id_11266" rel="external" href="cje10.png">MANIFEST Part10: Candidates for integration in p2p-federated network.</a>
 </bu>
+<bu cl="lnk" xid="id_11274">
+<a id="id_11274" rel="external" href="Adding_video_bullet.mp4">Adding_video_bullet</a>
+</bu>
+<bu cl="lnk" xid="id_11275">
+<a id="id_11275" rel="external" href="Bullet_link-create-change.mp4">Bullet_link-create-change</a>
+</bu>
+<bu cl="lnk" xid="id_11276">
+<a id="id_11276" rel="external" href="Create_bullet_hyperlink.mp4">Create_bullet_hyperlink</a>
+</bu>
+<bu cl="lnk" xid="id_11277">
+<a id="id_11277" rel="external" href="Create_clip-traverse.mp4">Create_clip-traverse</a>
+</bu>
+<bu cl="lnk" xid="id_11278">
+<a id="id_11278" rel="external" href="Delete.mp4">Delete</a>
+</bu>
+<bu cl="lnk" xid="id_11279">
+<a id="id_11279" rel="external" href="Drag_drop_in_from_Temporaries.mp4">Drag_drop_in_from_Temporaries</a>
+</bu>
+<bu cl="lnk" xid="id_11280">
+<a id="id_11280" rel="external" href="Drag-resort-memsave_upper_hide-lower.mp4">Drag-resort-memsave_upper_hide-lower</a>
+</bu>
+<bu cl="lnk" xid="id_11281">
+<a id="id_11281" rel="external" href="Enable_select_et_al.mp4">Enable_select_et_al</a>
+</bu>
+<bu cl="lnk" xid="id_11282">
+<a id="id_11282" rel="external" href="Lower_search-by_traversal-by_enum_upper_hide_show.mp4">Lower_search-by_traversal-by_enum_upper_hide_show</a>
+</bu>
+<bu cl="lnk" xid="id_11283">
+<a id="id_11283" rel="external" href="Lower-tap-scroll-view_all.mp4">Lower-tap-scroll-view_all</a>
+</bu>
+<bu cl="lnk" xid="id_11284">
+<a id="id_11284" rel="external" href="Sort_functions.mp4">Sort_functions</a>
+</bu>
+<bu cl="lnk" xid="id_11285">
+<a id="id_11285" rel="external" href="Temporaries_based_delete.mp4">Temporaries_based_delete</a>
+</bu>
+<bu cl="lnk" xid="id_11286">
+<a id="id_11286" rel="external" href="Upper_search-by_traversal-by_enum-lower_hide_show.mp4">Upper_search-by_traversal-by_enum-lower_hide_show</a>
+</bu>
+<bu cl="lnk" xid="id_11287">
+<a id="id_11287" rel="external" href="Upper-tap-scroll-show_all.mp4">Upper-tap-scroll-show_all</a>
+</bu>
+<bu cl="lnk" xid="id_11289">
+<a id="id_11289" rel="external" href="Adding_video_bullet.ogv">Adding_video_bullet</a>
+</bu>
+<bu cl="lnk" xid="id_11290">
+<a id="id_11290" rel="external" href="Bullet_link-create-change.ogv">Bullet_link-create-change</a>
+</bu>
+<bu cl="lnk" xid="id_11291">
+<a id="id_11291" rel="external" href="Create_bullet_hyperlink.ogv">Create_bullet_hyperlink</a>
+</bu>
+<bu cl="lnk" xid="id_11292">
+<a id="id_11292" rel="external" href="Create_clip-traverse.ogv">Create_clip-traverse</a>
+</bu>
+<bu cl="lnk" xid="id_11293">
+<a id="id_11293" rel="external" href="Delete.ogv">Delete</a>
+</bu>
+<bu cl="lnk" xid="id_11294">
+<a id="id_11294" rel="external" href="Drag_drop_in-from_Temporaries.ogv">Drag_drop_in-from_Temporaries</a>
+</bu>
+<bu cl="lnk" xid="id_11295">
+<a id="id_11295" rel="external" href="Drag-resort-memsave_upper-hide_lower.ogv">Drag-resort-memsave_upper-hide_lower</a>
+</bu>
+<bu cl="lnk" xid="id_11296">
+<a id="id_11296" rel="external" href="Enable_select_et_al.ogv">Enable_select_et_al</a>
+</bu>
+<bu cl="lnk" xid="id_11297">
+<a id="id_11297" rel="external" href="Lower_search-by_traversal-by_enum-upper_hide_show.ogv">Lower_search-by_traversal-by_enum-upper_hide_show</a>
+</bu>
+<bu cl="lnk" xid="id_11298">
+<a id="id_11298" rel="external" href="Lower-tap-scroll-view_all.ogv">Lower-tap-scroll-view_all</a>
+</bu>
+<bu cl="lnk" xid="id_11299">
+<a id="id_11299" rel="external" href="Sort_functions.ogv">Sort_functions</a>
+</bu>
+<bu cl="lnk" xid="id_11300">
+<a id="id_11300" rel="external" href="Upper_search-by_traversal-by_enum-lower_hide_show.ogv">Upper_search-by_traversal-by_enum-lower_hide_show</a>
+</bu>
+<bu cl="lnk" xid="id_11301">
+<a id="id_11301" rel="external" href="Temporaries_based_delete.ogv">Temporaries_based_delete.mp4</a>
+</bu>
+<bu cl="lnk" xid="id_11302">
+<a id="id_11302" rel="external" href="Upper-tap-scroll-show_all.ogv">Upper-tap-scroll-show_all</a>
+</bu>
+<bu cl="lnk" xid="id_11304">
+<a id="id_11304" rel="external" href="Geekygirldawn-YahooPipesKeywordCSV2MinuteDemo629.mov">
+Example1
+</a>
+</bu>
+<bu cl="lnk" xid="id_11305">
+<a id="id_11305" rel="external" href="Geekygirldawn-GoogleDocsInputs2MinuteYahooPipesVideoDemo549.mov">Example2</a>
+</bu>
+<bu cl="lnk" xid="id_11306">
+<a id="id_11306" rel="external" href="Geekygirldawn-UsingLocationData2MinuteYahooPipesVideoDemo972.mov">Example3</a>
+</bu>
+<bu cl="lnk" xid="id_11307">
+<a id="id_11307" rel="external" href="Geekygirldawn-FilterByDateA2MinuteYahooPipesDemo723.mov">Example4</a>
+</bu>
+<bu cl="lnk" xid="id_11308">
+<a id="id_11308" rel="external" href="Geekygirldawn-YQLYahooQueryLanguage2MinuteYahooPipesVideoDemo997.mov">Example5</a>
+</bu>
+<bu cl="lnk" xid="id_11309">
+<a id="id_11309" rel="external" href="Geekygirldawn-ModifyingRSSFeeds2MinuteYahooPipesVideoDemo985.mov">Example6</a>
+</bu>
+<bu cl="lnk" xid="id_11310">
+<a id="id_11310" rel="external" href="Geekygirldawn-CSVFileInputs2MinuteYahooPipesVideoDemo566.mov">Example7</a>
+</bu>
+<bu cl="lnk" xid="id_11311">
+<a id="id_11311" rel="external" href="Geekygirldawn-UsingTheDebugger2MinuteYahooPipesVideoDemo821.mov">Example8</a>
+</bu>
+<bu cl="lnk" xid="id_11312">
+<a id="id_11312" rel="external" href="Geekygirldawn-A2MinuteYahooPipesDemo145.mov">Example9</a>
+</bu>
+<bu cl="lnk" xid="id_11313">
+<a id="id_11313" rel="external" href="Geekygirldawn-YahooPipesVideo2MinuteQuickVanityFeedDemo665.mov">Example10</a>
+</bu>
+<bu cl="lnk" xid="id_11314">
+<a id="id_11314" rel="external" href="Geekygirldawn-UserInput2MinuteYahooPipesVideoDemo790.mov">Example11</a>
+</bu>
+<bu cl="lnk" xid="id_11315">
+<a id="id_11315" rel="external" href="http://127.0.0.1/HorsesTst5_2">
+Simple CJE-Game
+</a>
+</bu>
+<bu cl="lnk" xid="id_11316">
+<a id="id_11316" rel="external" href="http://127.0.0.1/cje.js">
+Show content of a file in localhost
+</a>
+</bu>
+<bu cl="lnk" xid="id_11317">
+<a id="id_11317" rel="external" href="http://127.0.0.1/cgi-bin/tst.sh?&quot;ls -l&quot;">
+Listing of local filesystem via CGI
+</a>
+</bu>
+<bu cl="lnk" xid="id_11318">
+<a id="id_11318" rel="external" href="Stewart__Scarfe_-_06_-_Prey.mp3">
+Song from Stewart Scarfe (mp3)
+</a>
+</bu>
+<bu xid="id_11319">Treatment if sprain </bu>
+<bu cl="lnk" xid="id_11320">
+<a id="id_11320" rel="external" href="01s_sprain.mp4">
+Treatment of sprain (mp4)
+</a>
+</bu>
+<bu cl="lnk" xid="id_11321">
+<a id="id_11321" rel="external" href="index.html">Show index.html of localhost</a>
+</bu>
+<bu xid="id_11323">SHOW ONLY LOCAL DATA</bu>
+<bu xid="id_11326">SHOW ONLY REMOTE DATA</bu>
+<bu xid="id_11327">DROP/CREATE BULLETS HERE !</bu>
 </cl>
 </root>

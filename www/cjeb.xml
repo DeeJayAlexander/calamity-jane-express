@@ -9,15 +9,17 @@
 </cl>
 <cl na="_CJE_Documentation" xid="id_11192" cl="su">
 <bu xid="id_11193" cl="txt"/>
-<bu xid="id_11219" cl="clip"/>
+<bu xid="id_11329" cl="clip"/>
 <bu xid="id_11202" cl="lnk"/>
-<bu xid="id_11255" cl="clip"/>
 <bu xid="id_11201" cl="lnk"/>
+<bu xid="id_11255" cl="clip"/>
 </cl>
 <cl na="_MY_PERSONAL_CLIP" xid="id_11098" cl="su">
-<bu xid="id_11112" cl="txt"/>
+<bu xid="id_11324" cl="clip"/>
+<bu xid="id_11325" cl="clip"/>
+<bu xid="id_11322" cl="clip"/>
 </cl>
-<cl na="_American_Red_Cross_text" xid="id_11095" cl="su">
+<cl na="_American_Red_Cross_text" xid="id_11095">
 <bu xid="id_1" cl="txt"/>
 <bu xid="id_11003" cl="clip"/>
 <bu xid="id_11007" cl="clip"/>
@@ -844,13 +846,13 @@
 <bu xid="id_1318" cl="txt"/>
 <bu xid="id_1319" cl="txt"/>
 </cl>
-<cl na="_British_Red_Cross_videos" xid="id_11114" cl="su">
+<cl na="_British_Red_Cross_videos" xid="id_11114">
 <bu xid="id_11194" cl="txt"/>
 <bu xid="id_11214" cl="clip"/>
 <bu xid="id_11212" cl="clip"/>
 <bu xid="id_11213" cl="clip"/>
 </cl>
-<cl na="_Disaster_ArchiveDotOrg_audio" xid="id_11129" cl="su">
+<cl na="_Disaster_ArchiveDotOrg_audio" xid="id_11129">
 <bu xid="id_11195" cl="txt"/>
 <bu xid="id_11215" cl="lnk"/>
 <bu xid="id_11217" cl="lnk"/>
@@ -861,7 +863,7 @@
 <bu xid="id_11190" cl="lnk"/>
 <bu xid="id_11191" cl="lnk"/>
 </cl>
-<cl na="_Disaster_WikipediaDotOrg_pics" xid="id_11132" cl="su">
+<cl na="_Disaster_WikipediaDotOrg_pics" xid="id_11132">
 <bu xid="id_11196" cl="txt"/>
 <bu xid="id_11136" cl="lnk"/>
 <bu xid="id_11133" cl="lnk"/>
@@ -869,7 +871,7 @@
 <bu xid="id_11135" cl="lnk"/>
 <bu xid="id_11137" cl="lnk"/>
 </cl>
-<cl na="_Yahoo_Pipes_json" xid="id_11150" cl="su">
+<cl na="_Yahoo_Pipes_json" xid="id_11150">
 <bu xid="id_11198" cl="txt"/>
 <bu xid="id_11199" cl="lnk"/>
 <bu xid="id_11154" cl="lnk"/>
@@ -889,7 +891,7 @@
 <bu xid="id_11168" cl="lnk"/>
 <bu xid="id_11169" cl="lnk"/>
 </cl>
-<cl na="_Fema_epub_desktop_only" xid="id_11171" cl="su">
+<cl na="_Fema_epub_desktop_only" xid="id_11171">
 <bu xid="id_11200" cl="txt"/>
 <bu xid="id_11172" cl="lnk"/>
 <bu xid="id_11173" cl="lnk"/>
@@ -967,5 +969,86 @@
 <bu xid="id_11263" cl="lnk"/>
 <bu xid="id_11265" cl="lnk"/>
 <bu xid="id_11266" cl="lnk"/>
+</cl>
+<cl na="_CJE_Instruction_mp4" xid="id_11273">
+<bu xid="id_11274" cl="lnk"/>
+<bu xid="id_11275" cl="lnk"/>
+<bu xid="id_11276" cl="lnk"/>
+<bu xid="id_11277" cl="lnk"/>
+<bu xid="id_11278" cl="lnk"/>
+<bu xid="id_11279" cl="lnk"/>
+<bu xid="id_11280" cl="lnk"/>
+<bu xid="id_11281" cl="lnk"/>
+<bu xid="id_11282" cl="lnk"/>
+<bu xid="id_11283" cl="lnk"/>
+<bu xid="id_11284" cl="lnk"/>
+<bu xid="id_11285" cl="lnk"/>
+<bu xid="id_11286" cl="lnk"/>
+<bu xid="id_11287" cl="lnk"/>
+</cl>
+<cl na="_CJE_Instruction_ogv" xid="id_11288">
+<bu xid="id_11289" cl="lnk"/>
+<bu xid="id_11290" cl="lnk"/>
+<bu xid="id_11291" cl="lnk"/>
+<bu xid="id_11292" cl="lnk"/>
+<bu xid="id_11293" cl="lnk"/>
+<bu xid="id_11294" cl="lnk"/>
+<bu xid="id_11295" cl="lnk"/>
+<bu xid="id_11296" cl="lnk"/>
+<bu xid="id_11297" cl="lnk"/>
+<bu xid="id_11298" cl="lnk"/>
+<bu xid="id_11299" cl="lnk"/>
+<bu xid="id_11300" cl="lnk"/>
+<bu xid="id_11301" cl="lnk"/>
+<bu xid="id_11302" cl="lnk"/>
+</cl>
+<cl na="_YahooPipes_GDawn" xid="id_11303">
+<bu xid="id_11304" cl="lnk"/>
+<bu xid="id_11305" cl="lnk"/>
+<bu xid="id_11306" cl="lnk"/>
+<bu xid="id_11307" cl="lnk"/>
+<bu xid="id_11308" cl="lnk"/>
+<bu xid="id_11309" cl="lnk"/>
+<bu xid="id_11310" cl="lnk"/>
+<bu xid="id_11311" cl="lnk"/>
+<bu xid="id_11312" cl="lnk"/>
+<bu xid="id_11313" cl="lnk"/>
+<bu xid="id_11314" cl="lnk"/>
+</cl>
+<cl na="_MY_CLIP" xid="id_11322">
+<bu xid="id_11327" cl="txt"/>
+</cl>
+<cl na="_CLIP_WITH_LOCAL_DATA" xid="id_11324">
+<bu xid="id_11323" cl="txt"/>
+<bu xid="id_11112" cl="txt"/>
+<bu xid="id_677" cl="txt"/>
+<bu xid="id_11321" cl="lnk"/>
+<bu xid="id_11136" cl="lnk"/>
+<bu xid="id_11320" cl="lnk"/>
+<bu xid="id_11318" cl="lnk"/>
+<bu xid="id_11315" cl="lnk"/>
+<bu xid="id_11176" cl="lnk"/>
+<bu xid="id_11316" cl="lnk"/>
+<bu xid="id_11317" cl="lnk"/>
+</cl>
+<cl na="_CLIP_WITH_REMOTE_DATA" xid="id_11325">
+<bu xid="id_11326" cl="txt"/>
+<bu xid="id_11246" cl="lnk"/>
+<bu xid="id_11203" cl="lnk"/>
+<bu xid="id_11215" cl="lnk"/>
+<bu xid="id_11154" cl="lnk"/>
+</cl>
+<cl na="_EMERGENCY_SITUATIONS" xid="id_11328" cl="su">
+<bu xid="id_11095" cl="clip"/>
+<bu xid="id_11114" cl="clip"/>
+<bu xid="id_11129" cl="clip"/>
+<bu xid="id_11132" cl="clip"/>
+<bu xid="id_11171" cl="clip"/>
+<bu xid="id_11150" cl="clip"/>
+</cl>
+<cl na="_CJE_Instructions_video" xid="id_11329">
+<bu xid="id_11219" cl="clip"/>
+<bu xid="id_11273" cl="clip"/>
+<bu xid="id_11288" cl="clip"/>
 </cl>
 </root>
